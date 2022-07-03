@@ -5,8 +5,18 @@ using UnityEngine.UI;
 
 public class GuideVoice : MonoBehaviour
 {
+    private ActivationMode _activationMode = ActivationMode.ButtonTriggerd;
+    public ActivationMode activationMode 
+    {
+        get {
+            return _activationMode;
+        } 
+        set {
+            _activationMode = value;
+            GetComponentInChildren<Canvas>().enabled = _activationMode == ActivationMode.ButtonTriggerd;
+        }
+    }
 
-    public ActivationMode activationMode = ActivationMode.ButtonTriggerd;
     public AudioClip audioClip;
 
     private AudioSource audioSource;
@@ -27,7 +37,7 @@ public class GuideVoice : MonoBehaviour
         speakerOnSprite = Resources.Load<Sprite>("Sprites/SpeakerIcon");
         speakerOffSprite = Resources.Load<Sprite>("Sprites/SpeakerOffIcon");
 
-        if (activationMode == ActivationMode.ProximityTriggerd)
+        if (_activationMode == ActivationMode.ProximityTriggerd)
             GetComponentInChildren<Canvas>().enabled = false;
 
         audioSource = GetComponent<AudioSource>();
@@ -46,7 +56,7 @@ public class GuideVoice : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (activationMode == ActivationMode.ProximityTriggerd &&
+        if (_activationMode == ActivationMode.ProximityTriggerd &&
             other.gameObject.CompareTag("MainCamera"))
             audioSource.Play();
 
@@ -54,7 +64,7 @@ public class GuideVoice : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (activationMode == ActivationMode.ProximityTriggerd &&
+        if (_activationMode == ActivationMode.ProximityTriggerd &&
             other.gameObject.CompareTag("MainCamera"))
             audioSource.Stop();
     }
