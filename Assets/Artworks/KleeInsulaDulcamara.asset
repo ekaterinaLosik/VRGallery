@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a423194b7fd38e4fbec162c31525d6f, type: 3}
+  m_Name: KleeInsulaDulcamara
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: 75a9440aebd897546a96d58d529b7ccc, type: 3}
+  name: Insula Dulcamara
+  author: Paul Klee
+  description: "Im Jahre 1938 malte Klee sieben grosse Tafelbilder im Querschnitt:
+    Feuerquelle, Rostende Schiffe, Vorhaben, Fr\xFCchte auf Blau, Reicher Hafen,
+    Nachlass eines Artisten und Insula Dulcamara.\r\n\r\nSie sind alle mit Kohle
+    auf Zeitungspapier entworfen, dass Klee dann mit Kleister auf Jute oder Leinwand
+    befestigt, um so einen Malgrund zu haben, der glatt und zugleich differenziert
+    ist. Oft scheint das bedruckte Zeitungspapier durch die Farben hindurch; man
+    liest St\xFCcke von Annoncen und von Leitartikeln. Das st\xF6rt Klee nicht, im
+    Gegenteil, die dadurch entstehende leichte Verfremdung ist ihm lieb. Er ben\xFCtzt
+    jetzt \xFCberhaupt ungew\xF6hnliche Materialien wie Packpapier und Sackleinen,
+    Kleisterfarben und Gipsgrundierungen, so wie er seit 1937 d\xFCnne und dicke
+    Balkenstriche f\xFCr seine Zeichensprache verwendet.\r\n\r\nInsula dulcamara
+    und Fr\xFCchte auf Blau sind heiter im Gegensatz etwa zu dem Nachlass eines Artisten
+    mit seinen k\xFCmmerlichen Requisiten auf d\xFCsterem Grund. Die beiden Bilder
+    sind S\xFCden und W\xE4rme, die Insula dulcamara auch Mythos, homerische Welt.
+    Der Vorschlag, das Bild \u201EInsel der Kalypso\u201C zu nennen, war Klee zu
+    direkt, aber in der Idee kam er seinem Entwurf entgegen. Die schwarzen Konturen
+    sind K\xFCste, der emporgestreckte Kopf ist ein Idol, die \xFCbrigen kurvigen
+    Lineamente deuten auf tragische Verstrickung. Am Horizont f\xE4hrt ein Dampfer
+    vor\xFCber; das tangiert den Mythos so wenig wie sich die Himmelzeichen widersprechen,
+    von denen das eine den aufgehen Mond bezeichnet, das andere den untergehenden.
+    Die Farben sind Fr\xFChling, ein Maigr\xFCn, ein Bl\xFCtenrosa und ein Himmelsblau
+    \u2013 Fr\xFChling auf einer der Kykladen-Inseln, an denen Odysseus vorbeifuhr
+    auf dem Weg nach Ithaka. Seine Zeit ist noch nicht vor\xFCber, und die unsrige
+    l\xE4ngst schon da und mit ihr die Zukunft. Durchsichtigkeit der Zeit und Durchsichtigkeit
+    des Raumes; denn wo finge dieser an und wo h\xF6rte er auf, wo w\xE4re der Unterschied
+    zwischen Meer und Land? Klee bewegt sich im Mehrdimensionalen, ohne sich dessen
+    bewusst zu sein, nachdem er in seiner Jugend diesen Zustand als h\xF6chstes Ziel
+    herbeigesehnt hatte."
+  month: 1
+  year: 1938
+  tags:
+  - Zentrum Paul Klee
+  - "\xD6lgem\xE4lde"
+  - Paul Klee
+  - Insula Dulcamara
+  - Abstrakt
