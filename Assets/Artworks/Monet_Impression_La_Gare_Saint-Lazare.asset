@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a423194b7fd38e4fbec162c31525d6f, type: 3}
+  m_Name: Monet_Impression_La_Gare_Saint-Lazare
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: f1d2c6265fcf9b64aba677b78db3d5ac, type: 3}
+  name: La Gare Saint-Lazare
+  author: Claude Monet
+  description: "Der Gare Saint-Lazare (auch bekannt als Innenansicht des Gare Saint-Lazare,
+    der Auteuil-Linie), zeigt einen der Bahnsteige des Gare Saint-Lazare, einem der
+    gr\xF6\xDFten und verkehrsreichsten Bahnh\xF6fe von Paris. Bei dem Gem\xE4lde
+    handelt es sich weniger um eine Einzelansicht eines Bahnsteigs, sondern vielmehr
+    um einen Teil eines gr\xF6\xDFeren Projekts, das aus einem Dutzend Gem\xE4lden
+    besteht und versucht, alle Facetten des Gare Saint-Lazare darzustellen. Die Gem\xE4lde
+    haben alle \xE4hnliche Themen, darunter das Lichtspiel, das durch den Rauch des
+    Schuppens gefiltert wird, die Dampfwolken und die Lokomotiven, die den Ort dominieren.
+    Von diesen zw\xF6lf zusammenh\xE4ngenden Gem\xE4lden stellte Monet sechs bis
+    acht auf der dritten Impressionistenausstellung von 1877 aus, wo sie zu den meistdiskutierten
+    Gem\xE4lden aller K\xFCnstler geh\xF6rten."
+  month: 0
+  year: 1877
+  tags:
+  - monet
+  - landschaft
+  - impressionismus

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a423194b7fd38e4fbec162c31525d6f, type: 3}
+  m_Name: Monet_Impression_Sonnenaufgang
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: 3d9f79c9e9504c142a445d1749a5c4e7, type: 3}
+  name: Impression, Sonnenaufgang
+  author: Claude Monet
+  description: "Das Bild zeigt den Hafen von Le Havre am Morgen. Im Hintergrund liegen
+    Schiffe vor Anker, die im Nebel verschwinden. Im Vordergrund des Bildes sind
+    drei kleinere Fischerboote unklar zu erkennen. Auf dem Wasser bricht sich das
+    Licht der aufgehenden Sonne.\r\nMonet malte den Gro\xDFteil des Bildes mit Violett
+    und Blau, die Reflexion der Sonne auf dem Wasser malte er mit Orange. Als strukturierendes
+    Element dienen Industrieanlagen und Schiffe im Hintergrund, deren Masten und
+    Schattenumrisse lineare Strukturen schaffen. Das Bild ist so ebenm\xE4\xDFig
+    gemalt, dass der Anschein der r\xE4umlichen Distanz ausschlie\xDFlich durch die
+    schr\xE4g angeordneten Boote deutlich wird."
+  month: 0
+  year: 1872
+  tags:
+  - monet
+  - landschaft
+  - impressionismus
