@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a423194b7fd38e4fbec162c31525d6f, type: 3}
+  m_Name: KleeRevolutionOfTheViaduct
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: 808280dbb881076448f45cb741733cf1, type: 3}
+  name: Revolution des Viadukts
+  author: Paul Klee
+  description: "In seinem Gem\xE4lde Revolution des Viadukts aus dem Jahr 1937 zeigte
+    sich Klee von einer eher sozial und politisch relevanten Seite. Das Bild, das
+    zu einer Zeit entstand, als der Faschismus in Europa auf dem Vormarsch war, zeigt
+    rebellische B\xF6gen, die aus der Konformit\xE4t eines Viadukts ausbrechen, und
+    ruft die \xD6ffentlichkeit zum Widerspruch auf, w\xE4hrend es gleichzeitig die
+    Individualit\xE4t f\xF6rdert. Es ist ein schnoddriger, aber vorhersehbarer Verweis
+    auf Albert Speers monolithische Nazi-Architektur sowie auf die offiziellen sowjetischen
+    Bilder von Arbeitern, die im Gleichschritt vorw\xE4rts marschieren. Es gibt ein
+    ergreifendes Postskriptum zu Klees Gesellschaftskritik: Nachdem der K\xFCnstler
+    1937 aus Deutschland in seine Heimat Schweiz geflohen war, wurden 17 seiner Werke
+    in der Ausstellung Entartete Kunst der Nazis ausgestellt, einer Schau moderner
+    Malerei und Skulptur, die sie als zu freigeistig und libert\xE4r betrachteten. "
+  month: 1
+  year: 1937
+  tags:
+  - kunsthalle hamburg
+  - "\xF6lgem\xE4lde"
+  - paul klee
+  - revolution des viadukts
+  - abstrakt
+  - 'antifaschismus '
+  audio: {fileID: 0}

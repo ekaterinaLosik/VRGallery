@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a423194b7fd38e4fbec162c31525d6f, type: 3}
+  m_Name: "Kittelsen_Junge_auf_wei\xDFem_Pferd"
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: e9a96823e2898a6489fd29aa023aab07, type: 3}
+  name: "Gutt p\xE5 hvit hest (Junge auf wei\xDFem Pferd)"
+  author: Theodor Kittelsen
+  description: "Der N\xF8kk (N\xF8kken) ist ein geheimnisvolles Wasserwesen, das
+    in T\xFCmpeln oder kleinen Seen lebt und sich in ein sch\xF6nes wei\xDFes Pferd
+    verwandeln und Kinder ins Wasser locken kann. Es lockt auch Erwachsene auf das
+    Pferd und rast dann mit seinem Opfer ins Wasser."
+  month: 1
+  year: 1909
+  tags:
+  - kittelsen
+  - norwegen

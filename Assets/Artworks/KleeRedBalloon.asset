@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a423194b7fd38e4fbec162c31525d6f, type: 3}
+  m_Name: KleeRedBalloon
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: 890536e9ac3c052478d49bdee4b74931, type: 3}
+  name: Roter Ballon
+  author: Paul Klee
+  description: "Paul Klees st\xE4ndiger Wechsel von Stil, Technik und Sujet deutet
+    auf eine bewusste und h\xF6chst spielerische Umgehung der \xE4sthetischen Kategorisierung
+    hin. Dennoch ist es praktisch unm\xF6glich, ein Werk von Klee mit dem eines anderen
+    K\xFCnstlers zu verwechseln, auch wenn viele seine eigenwillige, r\xE4tselhafte
+    Kunst nachgeahmt haben. Sein Werk war so anerkannt, dass Klee im Laufe der Jahre
+    von der Gruppe des Blauen Reiters, den europ\xE4ischen Dadaisten, den Surrealisten
+    und der Bauhaus-Fakult\xE4t, bei der er ein Jahrzehnt lang in Weimar und Dessau
+    unterrichtete, umarmt wurde.\r\n\r\nAls Teil der Avantgarde des fr\xFChen 20.
+    Jahrhunderts formulierte Klee eine pers\xF6nliche abstrakte Bildsprache. Sein
+    Vokabular, das frei zwischen dem Gegenst\xE4ndlichen und dem Ungegenst\xE4ndlichen
+    oszilliert, kommuniziert durch eine einzigartige Symbolik, die eher expressiv
+    als deskriptiv ist. Klee vermittelte seine Bedeutungen durch eine oft skurrile
+    Verschmelzung von Form und Text. H\xE4ufig schrieb er die Titel seiner Werke
+    auf die Passepartouts, auf denen sie montiert sind, und f\xFCgte W\xF6rter in
+    die Bilder selbst ein. Dies ist der Fall bei Der bayerische Don Giovanni, in
+    dem Klee seine Bewunderung f\xFCr die Mozart-Oper sowie f\xFCr bestimmte zeitgen\xF6ssische
+    Sopranistinnen zum Ausdruck bringt und gleichzeitig auf seine eigenen amour\xF6sen
+    Aktivit\xE4ten anspielt. Die Figur, die die Leiter hinaufsteigt, ist ein verschleiertes
+    Selbstportr\xE4t und von f\xFCnf Frauennamen umgeben, eine Anspielung auf die
+    Opernszene, in der Don Giovannis Diener Leporello eine Liste der 2.065 Liebesaff\xE4ren
+    seines Herrn rezitiert. Unter Berufung auf Klees Gest\xE4ndnis, dass seine Verliebtheit
+    mit jeder Soubrette in der Oper wechselte, hat der Kunsthistoriker K. Porter
+    Aichele die Emma und Theres des Aquarells als die S\xE4ngerinnen Emma Carelli
+    und Therese Rothauser identifiziert.\r\n\r\nObwohl ein Gro\xDFteil von Klees
+    Werk figurativ ist, ging die kompositorische Gestaltung fast immer der narrativen
+    Assoziation voraus. Der K\xFCnstler setzte seine Experimente mit Tonwerten und
+    Linien oft in visuelle Anekdoten um. Der Rote Ballon zum Beispiel ist gleichzeitig
+    eine Ansammlung zartfarbiger, schwebender geometrischer Formen und eine charmante
+    Stadtlandschaft. Runner at the Goal ist ein Essay \xFCber Simultaneit\xE4t; sich
+    \xFCberlappende und teilweise durchscheinende Farbbalken illustrieren die aufeinanderfolgenden
+    Gesten einer Figur in Bewegung. Die fuchtelnden Arme und die sprintenden Beine
+    verleihen dieser Figur, auf deren Stirn die Zahl eins einen Sieg verspricht,
+    eine komische Note. "
+  month: 1
+  year: 1922
+  tags:
+  - solomon r. guggenheim museum
+  - "\xF6lgem\xE4lde"
+  - paul klee
+  - roter ballon
+  - abstrakt
+  - kubismus
+  - bauhaus
+  - kreide
+  audio: {fileID: 0}

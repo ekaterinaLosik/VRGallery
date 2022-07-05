@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a423194b7fd38e4fbec162c31525d6f, type: 3}
+  m_Name: KleeAdParnassum
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: af6438367147ae844ae050e6d487c909, type: 3}
+  name: Ad Parnassum
+  author: Paul Klee
+  description: "Ad Parnassum (1932) gilt als Paul Klees Meisterwerk und bestes Beispiel
+    seines pointillistischen Stils; es ist auch eines seiner am feinsten gearbeiteten
+    Bilder. Ad Parnassum ist in der D\xFCsseldorfer Zeit entstanden. Mit 100 x 126
+    cm ist es eines seiner gr\xF6\xDFten Gem\xE4lde, da er normalerweise mit kleinen
+    Formaten arbeitete. In diesem mosaikartigen Werk im Stil des Pointillismus kombiniert
+    er verschiedene Techniken und Kompositionsprinzipien. Beeinflusst durch seine
+    \xC4gyptenreise von 1928 bis 1929, baute Klee ein Farbfeld aus einzeln gestempelten
+    Punkten auf, das von ebenfalls gestempelten Linien umgeben ist und eine Pyramide
+    ergibt. \xDCber dem Dach des \"Parnass\" befindet sich eine Sonne. Der Titel
+    weist das Bild als den Ort Apollons und der Musen aus.\n\nUm 1930 bedient sich
+    Klee h\xE4ufig dieses Bildaufbaus, der an den Pointillismus des sp\xE4ten neunzehnten
+    Jahrhunderts erinnert. Divisionismus\" nannte er sie. Innerhalb der \"divisionistischen\"
+    Gliederung taucht ein weiteres geometrisches Element auf - ein Dreieck, das ohne
+    festen Umriss allein durch die Variationen der Tonabstufungen der kleinen Quadrate
+    existiert. Dadurch wirkt das Bild vielschichtig, r\xE4umlich und lichtdurchflutet.
+    Eine Genealogie der modernen Farb-Licht-Malerei w\xFCrde von Georges Seurat zu
+    Klee f\xFChren. Klee interessierte sich jedoch kaum f\xFCr die f\xFCr Seurat
+    so wesentlichen Farbtheorien. Er bediente sich einfach einer malerischen Methode,
+    deren M\xF6glichkeiten zwar bald ersch\xF6pft waren, die ihm aber zu einer Reihe
+    meisterhafter Werke verhalf. "
+  month: 1
+  year: 1932
+  tags:
+  - kunstmuseum bern
+  - "\xF6lgem\xE4lde"
+  - paul klee
+  - ad parnassum
+  - grossformat
+  - pointillismus
+  audio: {fileID: 8300000, guid: 34c12c9705e934e4393893e3e5ad0cb5, type: 3}
