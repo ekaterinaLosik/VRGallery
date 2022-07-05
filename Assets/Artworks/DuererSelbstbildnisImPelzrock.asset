@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a423194b7fd38e4fbec162c31525d6f, type: 3}
+  m_Name: DuererSelbstbildnisImPelzrock
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: 90167f1c009ccc94a8d4f71454379eb8, type: 3}
+  name: Selbstbildnis im Pelzrock
+  author: "Albrecht D\xFCrer"
+  description: "Dieses Gem\xE4lde des K\xFCnstlers als Christus k\xF6nnte als eine
+    gewagte, blasphemische Aussage angesehen werden, ist aber h\xF6chstwahrscheinlich
+    Ausdruck des Glaubens und des Vertrauens in die Kompetenz des K\xFCnstlers als
+    Sch\xF6pfer. Es zeigt den K\xFCnstler Albrecht D\xFCrer, dessen Talente ihm von
+    Gott verliehen wurden.\r\n\r\nVor einem schlichten Hintergrund steht der K\xFCnstler
+    dem Betrachter direkt gegen\xFCber. Seine rechte Hand wird mit zwei gespreizten
+    Fingern an seine Brust angehoben, was an eine Geste des Segens erinnert. Sein
+    lockiges Haar f\xE4llt auf die Schultern und sein Monogramm prangt prominent
+    zu seiner Rechten.\r\n\r\nZu seiner Linken steht eine lateinische Inschrift,
+    die \xFCbersetzt lautet:\r\n\r\nSo malte ich, Albrecht D\xFCrer aus N\xFCrnberg,
+    mich selbst in naturgetreuen Farben im Alter von 28 Jahren.\r\n\r\nIn der Renaissance
+    war es \xFCblich, den Portr\xE4tierten in Dreiviertelansicht zu zeigen, meist
+    vor realistischem Hintergrund. D\xFCrer beschw\xF6rt mit einer Frontansicht und
+    einer dunklen, nicht n\xE4her spezifizierten Kulisse religi\xF6se Bilder des
+    Mittelalters. Mit seiner segnenden Geste, langen dunkelbraunen Haaren (D\xFCrer
+    war dunkelblond) und idealisierten Gesichtsz\xFCgen stellt sich der K\xFCnstler
+    hier eindeutig als Christus dar.\r"
+  month: 0
+  year: 1500
+  tags:
+  - "d\xFCrer"
+  - duerer
+  - blasphemisch
+  - glaube
+  - 'nicht ausgestellt '
+  - 1500
+  - holzschnitt
+  - selbstbildnis im pelzrock
+  audio: {fileID: 0}
