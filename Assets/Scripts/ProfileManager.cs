@@ -22,7 +22,6 @@ public class ProfileManager : MonoBehaviour
     
     public string[] tags;
     public int[] tagsFrequency;
-    public string[] AllTags;
 
     private void Start()
     {
