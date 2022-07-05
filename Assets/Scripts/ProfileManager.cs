@@ -22,6 +22,7 @@ public class ProfileManager : MonoBehaviour
     
     public string[] tags;
     public int[] tagsFrequency;
+    public string[] AllTags;
 
     private void Start()
     {
@@ -30,16 +31,23 @@ public class ProfileManager : MonoBehaviour
         _text1Comp = tagText1.GetComponent<TextMeshProUGUI>();
         _text2Comp = tagText2.GetComponent<TextMeshProUGUI>();
         _profileButton = GameObject.Find("ProfileButton");
-        tags = AppState.AllTags;  //if (tags == null) 
-       tagsFrequency = new int[tags.Length]; // if (tagsFrequency == null) 
+        StartCoroutine(WaitAndGetTags());
         
     }
 
-   /* private void Update()
-    {
-        DetectFavTags();
+    private IEnumerator WaitAndGetTags(){
+        yield return new WaitForSeconds(1);
+        if (PlayerPrefs.HasKey("TagsExists")){
+            LoadPrefs();
+        } else {
+            InitializeTags();
+        }
     }
-*/
+
+    void InitializeTags(){
+        tags = AppState.AllTags;  
+        tagsFrequency = new int[tags.Length];
+    }
     public void Sort(int[] arr)
     {
         for(int i = 1; i<arr.Length; i++) {
@@ -90,31 +98,36 @@ public class ProfileManager : MonoBehaviour
     {
         //TODO invoke Speech-To-Text
     }
+
     public void GetLastTags(List<string> tagsList){
         foreach (string tag in tagsList){
             int index = Array.FindIndex(tags, x => x.Equals(tag));
             tagsFrequency[index] ++;
         }
+        SavePrefs();
 
     }
 
-/*    public void SavePrefs()
+  
+   public void SavePrefs()
     {
-        PlayerPrefs.SetInt(tags[0], tagsFrequency[0]);
-        PlayerPrefs.SetInt(tags[1], tagsFrequency[1]);
-        PlayerPrefs.SetInt(tags[2], tagsFrequency[2]);
-        PlayerPrefs.SetInt(tags[3], tagsFrequency[3]);
-        PlayerPrefs.SetInt(tags[4], tagsFrequency[4]);
+        int i = 0;
+        while (i< tags.Length){
+            PlayerPrefs.SetInt(tags[i], tagsFrequency[i]);
+            i++;
+        }
+        PlayerPrefs.SetInt("TagsExists", 1);
         PlayerPrefs.Save();
     }
      
     public void LoadPrefs()
     {
-        tagsFrequency[0] = PlayerPrefs.GetInt("VanGogh");
-        Debug.Log(tagsFrequency[0]);
-        tagsFrequency[1] = PlayerPrefs.GetInt("Gothic");
-        tagsFrequency[2] = PlayerPrefs.GetInt("Modern");
-        tagsFrequency[3] = PlayerPrefs.GetInt("DaVinci");
-        tagsFrequency[4] = PlayerPrefs.GetInt("Klee");
-    }*/
+        Debug.Log("loading");
+        int count = 0;
+        InitializeTags();
+        foreach (string tag in tags){
+            tagsFrequency[count] = PlayerPrefs.GetInt(tag);
+            count++;
+        }
+    }
 }
