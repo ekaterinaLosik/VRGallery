@@ -37,10 +37,11 @@ MonoBehaviour:
   month: 1
   year: 1922
   tags:
-  - Kunstmuseum Basel
-  - "\xD6lgem\xE4lde"
-  - Paul Klee
-  - Senecio
-  - Kubismus
-  - Bauhaus
-  - Portrait
+  - kunstmuseum basel
+  - "\xF6lgem\xE4lde"
+  - paul klee
+  - senecio
+  - kubismus
+  - bauhaus
+  - portrait
+  audio: {fileID: 0}

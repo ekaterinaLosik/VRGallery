@@ -51,11 +51,12 @@ MonoBehaviour:
   month: 1
   year: 1922
   tags:
-  - Solomon R. Guggenheim Museum
-  - "\xD6lgem\xE4lde"
-  - Paul Klee
-  - Roter Ballon
-  - Abstrakt
-  - Kubismus
-  - Bauhaus
-  - Kreide
+  - solomon r. guggenheim museum
+  - "\xF6lgem\xE4lde"
+  - paul klee
+  - roter ballon
+  - abstrakt
+  - kubismus
+  - bauhaus
+  - kreide
+  audio: {fileID: 0}

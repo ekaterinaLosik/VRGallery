@@ -20,6 +20,7 @@ public class KeywordManager : MonoBehaviour
     public Toggle FilterButon;
     public Button CVButon;
     public GameObject AlarmPanel;
+    public GameObject ProfileManager;
     private List<string> tagsList;
 
     private void Start()
@@ -27,6 +28,7 @@ public class KeywordManager : MonoBehaviour
         ResetPool();
         tagsList = new List<string>();
         AllTags = Filters.GetAllTags(AllArtworks);
+        AppState.AllTags = AllTags;
         AllAuthors = Filters.GetAllAuthors(AllArtworks);
         gameObject.GetComponent<KeywordsSpeechRecognition>().taglist = AllTags;
         CountArtworks();
@@ -141,6 +143,8 @@ public class KeywordManager : MonoBehaviour
 
      public void SaveActualArtworkpool(){
         AppState.CurrentArtworkslist = ArtworkPool;
+        if (!IsTagsListEmpty())
+        ProfileManager.GetComponent<ProfileManager>().GetLastTags(tagsList);
     }
 
     public void ResetPool(){

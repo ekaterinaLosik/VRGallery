@@ -20,9 +20,9 @@ public class ProfileManager : MonoBehaviour
 
     private GameObject _profileButton;
     
-    public int[] tagsFrequency = { 0,0,0,0,0 };
-    public string[] tags = { "VanGogh", "Gothic", "Modern", "DaVinci", "Klee" };
-    
+    public string[] tags;
+    public int[] tagsFrequency;
+
     private void Start()
     {
         pManager = this;
@@ -30,13 +30,16 @@ public class ProfileManager : MonoBehaviour
         _text1Comp = tagText1.GetComponent<TextMeshProUGUI>();
         _text2Comp = tagText2.GetComponent<TextMeshProUGUI>();
         _profileButton = GameObject.Find("ProfileButton");
+        tags = AppState.AllTags;  //if (tags == null) 
+       tagsFrequency = new int[tags.Length]; // if (tagsFrequency == null) 
+        
     }
 
-    private void Update()
+   /* private void Update()
     {
         DetectFavTags();
     }
-
+*/
     public void Sort(int[] arr)
     {
         for(int i = 1; i<arr.Length; i++) {
@@ -52,8 +55,13 @@ public class ProfileManager : MonoBehaviour
     private void DetectFavTags()
     {
         Sort(tagsFrequency);
-        _text1Comp.text = tags[0];
-        _text2Comp.text = tags[1];
+       if (tagsFrequency[0] != 0){
+            _text1Comp.text = tags[0];
+            if (tagsFrequency[1] != 0) 
+            _text2Comp.text = tags[1];
+        }
+            
+            
     }
     
     public void ShowProfile()
@@ -61,8 +69,10 @@ public class ProfileManager : MonoBehaviour
         if (!_visible)
         {
             profilePanel.SetActive(true);       
-            _profileButton.SetActive(false);
+            _profileButton.SetActive(false); 
+             DetectFavTags();
             _visible = true;
+          
         }
     }
 
@@ -80,8 +90,15 @@ public class ProfileManager : MonoBehaviour
     {
         //TODO invoke Speech-To-Text
     }
-    
-    public void SavePrefs()
+    public void GetLastTags(List<string> tagsList){
+        foreach (string tag in tagsList){
+            int index = Array.FindIndex(tags, x => x.Equals(tag));
+            tagsFrequency[index] ++;
+        }
+
+    }
+
+/*    public void SavePrefs()
     {
         PlayerPrefs.SetInt(tags[0], tagsFrequency[0]);
         PlayerPrefs.SetInt(tags[1], tagsFrequency[1]);
@@ -99,5 +116,5 @@ public class ProfileManager : MonoBehaviour
         tagsFrequency[2] = PlayerPrefs.GetInt("Modern");
         tagsFrequency[3] = PlayerPrefs.GetInt("DaVinci");
         tagsFrequency[4] = PlayerPrefs.GetInt("Klee");
-    }
+    }*/
 }

@@ -17,4 +17,6 @@ public class Artwork : ScriptableObject
     public int year;
     [Space(10), Tooltip("Please add the author as tag as well.")]
     public string[] tags;
+     [Header("Audio clip")]
+    public AudioClip audio;
 }

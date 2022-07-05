@@ -38,10 +38,10 @@ MonoBehaviour:
   month: 1
   year: 1932
   tags:
-  - Kunstmuseum Bern
-  - "\xD6lgem\xE4lde"
-  - Paul Klee
-  - Ad Parnassum
-  - Grossformat
-  - Pointillismus
-  GuideSpeech: {fileID: 8300000, guid: 94488a1d65b855d4694cc56e102d540d, type: 3}
+  - kunstmuseum bern
+  - "\xF6lgem\xE4lde"
+  - paul klee
+  - ad parnassum
+  - grossformat
+  - pointillismus
+  audio: {fileID: 8300000, guid: 34c12c9705e934e4393893e3e5ad0cb5, type: 3}
