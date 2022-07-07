@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a423194b7fd38e4fbec162c31525d6f, type: 3}
+  m_Name: DuererMelencoliaI
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: 128ce60a0559268418b86f0eb286cfff, type: 3}
+  name: Melencolia I.
+  author: "Albrecht D\xFCrer"
+  description: "Dieser Druck ist eine sehr fr\xFChe Darstellung von der Melancholie
+    in der Kunst. Das Bild hat sowohl in der Schaffung des Mythos vom \"leidenden
+    K\xFCnstler\" als auch im Fortschritt der K\xFCnstlerdarstellungen ihrer eigenen
+    geistigen Gesundheit und Qualen ein integrales Dasein.\r\n\r\nMelencolia I. ist
+    Teil einer Gruppe von drei Platten, die auch als Meisterstiche bekannt sind.
+    In dieser Komposition ist eine gefl\xFCgelte weibliche Figur tief in der Nachdenklichkeit
+    versunken und h\xE4lt geistesabwesend einen Kompass in der rechten Hand.\r\n\r\nSie
+    tr\xE4gt einen Kranz und ist von zahlreichen Objekten umgeben, die alle eine
+    besondere symbolische Bedeutung haben. Ein traurig aussehender Putte sitzt hinter
+    ihr; ein abgemagerter Hund ruht zu ihren F\xFC\xDFen. Eine fliegende Fledermaus
+    am Himmel h\xE4lt ein Banner hoch, auf dem der Titel steht."
+  month: 0
+  year: 1514
+  tags:
+  - "d\xFCrer"
+  - duerer
+  - 1514
+  - melancholie
+  - melencolia i.
+  - geistige gesundheit
+  - 'ikonographie '
+  - symbolik
+  - deutsche renaissance
+  - 'nicht ausgestellt '
+  - renaissance
+  - kupferstich
+  audio: {fileID: 0}

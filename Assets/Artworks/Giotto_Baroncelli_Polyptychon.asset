@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a423194b7fd38e4fbec162c31525d6f, type: 3}
+  m_Name: Giotto_Baroncelli_Polyptychon
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: e63964b6b779b8341bca73116b02b43b, type: 3}
+  name: Baroncelli Polyptychon
+  author: Giotto di Bondone
+  description: "Dieses Tafelgem\xE4lde zeigt Jesus und Maria. Einzigartig ist, dass
+    dies das einzige Giotto-Tafelgem\xE4lde ist, das an dem Ort verbleibt, an dem
+    es urspr\xFCnglich vorgesehen war. Die Familie Baroncelli beauftragte den K\xFCnstler
+    1327 mit der Vollendung dieses Kunstwerks und schenkte es der Kapelle."
+  month: 1
+  year: 1334
+  tags:
+  - giotto di bondone
+  - gotik
+  - christlich
+  - italienische renaissance
+  - jesus christus
+  - tempera
+  - gold
+  - santa croce
+  - 1334

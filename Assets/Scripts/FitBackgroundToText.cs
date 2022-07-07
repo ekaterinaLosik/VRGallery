@@ -7,7 +7,7 @@ public class FitBackgroundToText : MonoBehaviour
 {
     public RectTransform textRect;
     private float padding = 10;
-    void Start()
+    void OnEnable()
     {
         var rectHeight = this.GetComponent<RectTransform>();
         rectHeight.sizeDelta = new Vector2(0, textRect.rect.height + padding);
