@@ -5,15 +5,46 @@ using UnityEngine.UI;
 
 public class GuideVoice : MonoBehaviour
 {
-    private ActivationMode _activationMode = ActivationMode.ButtonTriggerd;
-    public ActivationMode activationMode 
+    private ActivationMode _activationMode = ActivationMode.ProximityTriggerd;
+    public ActivationMode activationMode
     {
-        get {
+        get
+        {
             return _activationMode;
-        } 
-        set {
+        }
+        set
+        {
             _activationMode = value;
             GetComponentInChildren<Canvas>().enabled = _activationMode == ActivationMode.ButtonTriggerd;
+        }
+    }
+
+    private bool _isSpeaking = false;
+    private bool isSpeaking
+    {
+        get
+        {
+            return _isSpeaking;
+        }
+        set
+        {
+            // Value is already set, no need to play/stop audiosource or change sprite
+            if (_isSpeaking == value)
+            {
+                return;
+            }
+
+            if (value)
+            {
+                audioSource.Play();
+                GetComponentInChildren<Button>().image.sprite = stopSprite;
+            }
+            else
+            {
+                audioSource.Stop();
+                GetComponentInChildren<Button>().image.sprite = playArrowSprite;
+            }
+            _isSpeaking = value;
         }
     }
 
@@ -21,10 +52,8 @@ public class GuideVoice : MonoBehaviour
 
     private AudioSource audioSource;
 
-    private Sprite speakerOnSprite;
-    private Sprite speakerOffSprite;
-
-    private bool isSpeaking;
+    private Sprite playArrowSprite;
+    private Sprite stopSprite;
 
     public enum ActivationMode
     {
@@ -34,54 +63,55 @@ public class GuideVoice : MonoBehaviour
 
     private void Start()
     {
-        speakerOnSprite = Resources.Load<Sprite>("Sprites/SpeakerIcon");
-        speakerOffSprite = Resources.Load<Sprite>("Sprites/SpeakerOffIcon");
+        playArrowSprite = Resources.Load<Sprite>("Sprites/PlayArrow");
+        stopSprite = Resources.Load<Sprite>("Sprites/Stop");
 
-        if (_activationMode == ActivationMode.ProximityTriggerd)
+        if (activationMode == ActivationMode.ProximityTriggerd)
+        {
             GetComponentInChildren<Canvas>().enabled = false;
+        }
 
         audioSource = GetComponent<AudioSource>();
 
         if (audioSource.clip == null)
+        {
             audioSource.clip = audioClip;
-        
+        }
+
         if (audioSource == null || audioSource.clip == null)
+        {
             Debug.LogError("Critical: Audiosource or Clip is null");
+        }
     }
 
     private void Update()
     {
-
+        if (activationMode == ActivationMode.ButtonTriggerd)
+        {
+            isSpeaking = audioSource.isPlaying;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (_activationMode == ActivationMode.ProximityTriggerd &&
+        if (activationMode == ActivationMode.ProximityTriggerd &&
             other.gameObject.CompareTag("MainCamera"))
+        {
             audioSource.Play();
-
+        }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (_activationMode == ActivationMode.ProximityTriggerd &&
+        if (activationMode == ActivationMode.ProximityTriggerd &&
             other.gameObject.CompareTag("MainCamera"))
+        {
             audioSource.Stop();
+        }
     }
 
     public void ToggleVoice()
     {
-        if (isSpeaking)
-        {
-            audioSource.Stop();
-            isSpeaking = false;
-            GetComponentInChildren<Button>().image.sprite = speakerOffSprite;
-        }
-        else
-        {
-            audioSource.Play();
-            isSpeaking = true;
-            GetComponentInChildren<Button>().image.sprite = speakerOnSprite;
-        }
+        isSpeaking = !isSpeaking;
     }
 }
