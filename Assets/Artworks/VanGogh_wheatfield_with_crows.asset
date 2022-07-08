@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a423194b7fd38e4fbec162c31525d6f, type: 3}
+  m_Name: VanGogh_wheatfield_with_crows
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: 132055dc9ee44b346bc6d726584e45c9, type: 3}
+  name: Wheatfield with crows
+  author: Vincent van Gogh
+  description: "Das Weizenfeld mit Kr\xE4hen ist eines von Van Goghs ber\xFChmtesten
+    Gem\xE4lden und wahrscheinlich dasjenige, \xFCber das am meisten spekuliert wird.
+    Es wurde im Juli 1890, in den letzten Wochen von Van Goghs Leben, gemalt. Es
+    wurde von mehreren Kritikern als eines seiner gr\xF6\xDFten Werke bezeichnet.
+    Es wird allgemein behauptet, dass dies Van Goghs letztes Gem\xE4lde war."
+  month: 7
+  year: 1890
+  tags:
+  - van gogh
+  - landschaft
+  - popular
+  - "\xF6lgem\xE4lde"
+  - natur
+  - frankreich
+  - post impressionismus
+  - starker kontrast

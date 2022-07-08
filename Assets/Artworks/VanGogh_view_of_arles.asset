@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a423194b7fd38e4fbec162c31525d6f, type: 3}
+  m_Name: VanGogh_view_of_arles
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: 3d80e17719081c94691a5430341e7ac6, type: 3}
+  name: View of Arles
+  author: Vincent van Gogh
+  description: "Van Gogh war fasziniert von den Farben der Landschaft rund um die
+    Stadt Arles. Er liebte besonders den Kontrast zwischen den gelben und violetten
+    Blumen auf den Feldern. In der Landschaft glaubte er ein Spiegelbild der Welt
+    zu sehen, die er aus seiner Sammlung japanischer Drucke kannte. Japanische K\xFCnstler
+    verwenden in ihren Kompositionen gro\xDFe Farbfl\xE4chen, oft mit einer scharfen
+    Diagonale. Sie zoomten auch regelm\xE4\xDFig auf ein Detail im Vordergrund. Van
+    Gogh \xFCbernahm diese Elemente in seine Gem\xE4lde. Es war wie \"ein japanischer
+    Traum\", schrieb er in einem Brief an seinen Bruder Theo."
+  month: 5
+  year: 1888
+  tags:
+  - van gogh
+  - natur
+  - landschaft
+  - arles
+  - "\xF6lgem\xE4lde"
+  - blumen
+  - frankreich
