@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3389636602945770136}
   m_Layer: 0
   m_Name: BulbShell
-  m_TagString: Untagged
+  m_TagString: gallery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 6719163319497071871}
   m_Layer: 0
   m_Name: Cover
-  m_TagString: Untagged
+  m_TagString: gallery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 2086808717401663805}
   m_Layer: 0
   m_Name: Bulb
-  m_TagString: Untagged
+  m_TagString: gallery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 4274093103828792108}
   m_Layer: 0
   m_Name: Lamp
-  m_TagString: Untagged
+  m_TagString: gallery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -297,7 +297,7 @@ GameObject:
   - component: {fileID: 8491811013331873260}
   m_Layer: 0
   m_Name: PointLight
-  m_TagString: Untagged
+  m_TagString: gallery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -412,7 +412,7 @@ GameObject:
   - component: {fileID: 8491811015134695028}
   m_Layer: 0
   m_Name: ceiling_bricks
-  m_TagString: Untagged
+  m_TagString: gallery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -497,7 +497,7 @@ GameObject:
   - component: {fileID: 6032297293060791361}
   m_Layer: 7
   m_Name: Glass
-  m_TagString: Untagged
+  m_TagString: gallery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

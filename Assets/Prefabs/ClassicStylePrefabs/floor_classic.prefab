@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3535687412006520619}
   m_Layer: 0
   m_Name: floor_classic
-  m_TagString: Untagged
+  m_TagString: gallery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
