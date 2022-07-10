@@ -862,6 +862,10 @@ MonoBehaviour:
   profilePanel: {fileID: 5792939504276437034}
   tagText1: {fileID: 5792939502897325569}
   tagText2: {fileID: 5792939504287601704}
+  galleryStyles:
+  - {fileID: 21300000, guid: 6eba7f1052224c24fb055409db2fd6b1, type: 3}
+  - {fileID: 21300000, guid: cd671acc7e6c4e04da5de8ec699a08d7, type: 3}
+  - {fileID: 21300000, guid: f3b60540aece1a4419e8737c49b81d85, type: 3}
   tags:
   - VanGogh
   - Gothic

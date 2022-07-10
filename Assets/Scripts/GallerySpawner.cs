@@ -100,6 +100,7 @@ public class GallerySpawner : MonoBehaviour
             prefab = bricks;
             wallWithoutPainting = WallWithoutPaintingBricks;
         }
+        ProfileManager.pManager.IncreaseStyleFrequency(style);
     }
 
 }

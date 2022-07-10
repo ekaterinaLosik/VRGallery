@@ -10,15 +10,21 @@ using UnityEngine.UI;
 public class ProfileManager : MonoBehaviour
 {
     public static ProfileManager pManager;
+    public GameObject galleryStyle;
     public GameObject profilePanel;
     public GameObject tagText1;
     public GameObject tagText2;
     private bool _visible;
+    private Dictionary<string, int> _styleDictionary;
+    private Dictionary<string, Sprite> _styleSpritesDictionary;
 
+    private Image _imageRenderer;
     private TextMeshProUGUI _text1Comp;
     private TextMeshProUGUI _text2Comp;
 
     private GameObject _profileButton;
+
+    public List<Sprite> galleryStyles;
     
     public string[] tags;
     public int[] tagsFrequency;
@@ -30,6 +36,8 @@ public class ProfileManager : MonoBehaviour
         _text1Comp = tagText1.GetComponent<TextMeshProUGUI>();
         _text2Comp = tagText2.GetComponent<TextMeshProUGUI>();
         _profileButton = GameObject.Find("ProfileButton");
+        _imageRenderer = galleryStyle.GetComponent<Image>();
+        InitDictionaries();
         StartCoroutine(WaitAndGetTags());
         
     }
@@ -41,6 +49,36 @@ public class ProfileManager : MonoBehaviour
         } else {
             InitializeTags();
         }
+    }
+    
+    private void InitDictionaries()
+    {
+        _styleDictionary = new Dictionary<string, int>
+        {
+            { "classic", 0 },
+            { "wood", 0 },
+            { "bricks", 0 }
+        };
+        
+        _styleSpritesDictionary = new Dictionary<string, Sprite>
+        {
+            { "classic", galleryStyles[0] },
+            { "wood", galleryStyles[1] },
+            { "bricks", galleryStyles[2] }
+        };
+        
+        _styleDictionary.OrderByDescending(x => x.Value);
+    }
+
+    public void IncreaseStyleFrequency(string name)
+    {
+        _styleDictionary[name]++;
+        ChangeSprite(_styleSpritesDictionary[name]);
+    }
+
+    private void ChangeSprite(Sprite sprite)
+    {
+        _imageRenderer.sprite = sprite;
     }
 
     void InitializeTags(){
