@@ -35,3 +35,4 @@ MonoBehaviour:
   - arles
   - stadtbild
   - starker kontrast
+  audio: {fileID: 8300000, guid: 6986ca2df32bf744a8257893251b8933, type: 3}

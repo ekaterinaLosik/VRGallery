@@ -31,3 +31,4 @@ MonoBehaviour:
   - gold
   - santa croce
   - 1334
+  audio: {fileID: 8300000, guid: 0d9a40b4e9e36a44689314ff62fac154, type: 3}

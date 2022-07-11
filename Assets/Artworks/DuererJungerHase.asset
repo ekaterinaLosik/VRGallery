@@ -35,4 +35,4 @@ MonoBehaviour:
   - albertina
   - junger hase
   - tiermalerei
-  audio: {fileID: 0}
+  audio: {fileID: 8300000, guid: ddd8126a3685e8843aeb5b7ad6e776d2, type: 3}
