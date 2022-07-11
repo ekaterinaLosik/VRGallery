@@ -24,3 +24,4 @@ MonoBehaviour:
   tags:
   - kittelsen
   - norwegen
+  audio: {fileID: 8300000, guid: 5111afa6ae714fb4c911bc20f37d4aa6, type: 3}

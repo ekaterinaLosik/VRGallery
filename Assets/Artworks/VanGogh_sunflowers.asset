@@ -35,3 +35,4 @@ MonoBehaviour:
   - blumen
   - frankreich
   - gelb
+  audio: {fileID: 8300000, guid: 80b438ea9231c2a498b6e8dc0c1ab8bb, type: 3}

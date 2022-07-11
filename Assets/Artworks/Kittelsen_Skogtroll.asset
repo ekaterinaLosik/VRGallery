@@ -25,3 +25,4 @@ MonoBehaviour:
   - kittelsen
   - landschaft
   - norwegen
+  audio: {fileID: 8300000, guid: f7cdb009456d5c14ca222f4745c24059, type: 3}
