@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a423194b7fd38e4fbec162c31525d6f, type: 3}
+  m_Name: Kermit
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: c76369f4a54042a40a7f8f1ff8c5f8ee, type: 3}
+  name: Mandibeln
+  author: "M\xFCtterchen Meliere"
+  description: "\"Wie man bei einigen meiner Bilder sieht habe ich eine kleine Obsession
+    mit halb menschlichen, wilden Gestalten die nach Urinstinkt handeln und Apex
+    Pr\xE4datoren verk\xF6rpern. Au\xDFerdem mag ich einfach Insekten.\"\n - M\xFCtterchen
+    Meliere"
+  month: 10
+  year: 2020
+  tags:
+  - "m\xFCtterchen meliere"
+  - insekt
+  audio: {fileID: 0}

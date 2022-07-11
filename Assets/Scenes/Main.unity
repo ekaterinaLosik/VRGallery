@@ -790,6 +790,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1295745458 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1295745458, guid: 6c1d261d033550d41a4de10f5d0703c5, type: 3}
+  m_PrefabInstance: {fileID: 3316598417720495051}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1330498945
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,6 +864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4710e171e40ead04b9411e256b0c654d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  galleryStyle: {fileID: 1295745458}
   profilePanel: {fileID: 5792939504276437034}
   tagText1: {fileID: 5792939502897325569}
   tagText2: {fileID: 5792939504287601704}
@@ -1004,7 +1010,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!64 &1976870343
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1402,6 +1408,16 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 32d3a5f56772d37429cb5dd29340a1a9, type: 2}
   - {fileID: 11400000, guid: 9ecf9269bfcc59345a889a6dcafb3f0e, type: 2}
   - {fileID: 11400000, guid: aaf28221e119f494ea55775776a359ba, type: 2}
+  - {fileID: 11400000, guid: 0d5328e09b9696d418849f798b12e633, type: 2}
+  - {fileID: 11400000, guid: db6879deced9fc84e958377689a31569, type: 2}
+  - {fileID: 11400000, guid: 258bbee8b8db34440a3fb5da3b8f843a, type: 2}
+  - {fileID: 11400000, guid: 95d9566cdaac7554f82d5fcc5687820a, type: 2}
+  - {fileID: 11400000, guid: a856f9f5e7b14bf4eaaaebea01ea3b18, type: 2}
+  - {fileID: 11400000, guid: 33df142889c88214cbf8fc3940fba929, type: 2}
+  - {fileID: 11400000, guid: 90a707d1e832b8d4eb07e40a6eb6d286, type: 2}
+  - {fileID: 11400000, guid: 23e55c6e4fd1ecf40aab5d0bf11637af, type: 2}
+  - {fileID: 11400000, guid: 72891b6d64d1ce341bd20001ebbf4e16, type: 2}
+  - {fileID: 11400000, guid: 0171c81f2cc0239448f631f2094db6e1, type: 2}
   AllTags: []
   AllAuthors: []
   ArtworkPool: []
