@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6869006195903390540}
   m_Layer: 0
   m_Name: bricks
-  m_TagString: Untagged
+  m_TagString: gallery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,6 +42,50 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6869006195903390540}
     m_Modifications:
+    - target: {fileID: 624399896961437688, guid: b010b7d74408994429f300f8b786f480, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 1955209751221246302, guid: b010b7d74408994429f300f8b786f480, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 4070869511775220759, guid: b010b7d74408994429f300f8b786f480, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099415806298481243, guid: b010b7d74408994429f300f8b786f480, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 4238682928003458326, guid: b010b7d74408994429f300f8b786f480, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 4768007799509697877, guid: b010b7d74408994429f300f8b786f480, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389485921824028976, guid: b010b7d74408994429f300f8b786f480, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794377782705892365, guid: b010b7d74408994429f300f8b786f480, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794377783758040919, guid: b010b7d74408994429f300f8b786f480, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794377783855034492, guid: b010b7d74408994429f300f8b786f480, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794377783893153590, guid: b010b7d74408994429f300f8b786f480, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
     - target: {fileID: 7794377784024197959, guid: b010b7d74408994429f300f8b786f480, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -90,6 +134,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall_bricks
       objectReference: {fileID: 0}
+    - target: {fileID: 7794377784024197963, guid: b010b7d74408994429f300f8b786f480, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794377784270292075, guid: b010b7d74408994429f300f8b786f480, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794377784529904765, guid: b010b7d74408994429f300f8b786f480, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413269069908304563, guid: b010b7d74408994429f300f8b786f480, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584646952418218267, guid: b010b7d74408994429f300f8b786f480, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 8618105505705360051, guid: b010b7d74408994429f300f8b786f480, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b010b7d74408994429f300f8b786f480, type: 3}
 --- !u!4 &7237437085157847115 stripped
@@ -107,6 +175,10 @@ PrefabInstance:
     - target: {fileID: 5637718345706301939, guid: ba59b480f0549f64fa51f5bbf1b2195d, type: 3}
       propertyPath: m_Name
       value: floor_bricks
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637718345706301939, guid: ba59b480f0549f64fa51f5bbf1b2195d, type: 3}
+      propertyPath: m_TagString
+      value: gallery
       objectReference: {fileID: 0}
     - target: {fileID: 5637718345706301950, guid: ba59b480f0549f64fa51f5bbf1b2195d, type: 3}
       propertyPath: m_RootOrder
@@ -214,6 +286,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall_without_painting_bricks
       objectReference: {fileID: 0}
+    - target: {fileID: 8929449746847710455, guid: aeb75e2a4b3e4aa41823e7cb42960885, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aeb75e2a4b3e4aa41823e7cb42960885, type: 3}
 --- !u!4 &849400089204041997 stripped
@@ -228,6 +304,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6869006195903390540}
     m_Modifications:
+    - target: {fileID: 630518612122958503, guid: 41047d8232f4db943b55feb39016415a, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087101540252004464, guid: 41047d8232f4db943b55feb39016415a, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 2663818012460689492, guid: 41047d8232f4db943b55feb39016415a, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466489291609811350, guid: 41047d8232f4db943b55feb39016415a, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 8491811013331873262, guid: 41047d8232f4db943b55feb39016415a, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
     - target: {fileID: 8491811015134695026, guid: 41047d8232f4db943b55feb39016415a, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -275,6 +371,14 @@ PrefabInstance:
     - target: {fileID: 8491811015134695031, guid: 41047d8232f4db943b55feb39016415a, type: 3}
       propertyPath: m_Name
       value: ceiling_bricks
+      objectReference: {fileID: 0}
+    - target: {fileID: 8491811015134695031, guid: 41047d8232f4db943b55feb39016415a, type: 3}
+      propertyPath: m_TagString
+      value: gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898019936440737201, guid: 41047d8232f4db943b55feb39016415a, type: 3}
+      propertyPath: m_TagString
+      value: gallery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41047d8232f4db943b55feb39016415a, type: 3}

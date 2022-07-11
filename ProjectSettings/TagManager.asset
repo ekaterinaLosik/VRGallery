@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - TPArea
+  - gallery
   layers:
   - Default
   - TransparentFX

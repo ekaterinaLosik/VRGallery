@@ -54,7 +54,7 @@ public class KeywordManager : MonoBehaviour
 
     public void FilterForCv(string author)
     {
-        ArtworkPool = Filters.FilterForCv(author, ArtworkPool);
+        ArtworkPool = Filters.FilterForCv(author, AllArtworks);
         CurrentAuthor.text = "Aktueller Autor: " + author;
     }
 

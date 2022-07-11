@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a423194b7fd38e4fbec162c31525d6f, type: 3}
+  m_Name: VanGogh_kartoffelesser
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: ed445734215360145af234c85e5a3079, type: 3}
+  name: Die Kartoffelesser
+  author: Vincent van Gogh
+  description: "Van Gogh sah die Kartoffelesser als Aush\xE4ngeschild an, f\xFCr
+    das er bewusst eine schwierige Komposition w\xE4hlte, um zu beweisen, dass er
+    auf dem Weg war, ein guter Figurenmaler zu werden. Das Gem\xE4lde sollte die
+    harte Realit\xE4t des Landlebens darstellen, daher gab er den Bauern grobe Gesichter
+    und knochige, arbeitende H\xE4nde. Auf diese Weise wollte er zeigen, dass sie
+    mit diesen H\xE4nden, die sie in die Sch\xFCssel stecken, selbst die Erde bearbeitet
+    haben, dass sie sich also ihre Nahrung ehrlich verdient haben. Die Botschaft
+    des Gem\xE4ldes war f\xFCr Van Gogh wichtiger als die korrekte Anatomie oder
+    technische Perfektion. Er war sehr zufrieden mit dem Ergebnis"
+  month: 4
+  year: 1885
+  tags:
+  - van gogh
+  - popular
+  - innenraum
+  - naturalismus
+  - "\xF6lgem\xE4lde"
+  - realismus
+  - dunkel

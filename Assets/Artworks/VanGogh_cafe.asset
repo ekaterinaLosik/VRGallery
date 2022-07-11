@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a423194b7fd38e4fbec162c31525d6f, type: 3}
+  m_Name: VanGogh_cafe
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: a4e5e00d35d4fe148aebce1900da7ff2, type: 3}
+  name: "Caf\xE9terrasse am Abend"
+  author: Vincent van Gogh
+  description: "Van Gogh wollte schon seit einiger Zeit ein Nachtgem\xE4lde machen.
+    Und das nicht auf herk\xF6mmliche Weise, in Schwarz- und Graut\xF6nen, sondern
+    mit einer Vielzahl von Farben. Ebenso unkonventionell ist, dass er dieses Caf\xE9,
+    beleuchtet von einer Gaslaterne, an Ort und Stelle und im Dunkeln malt, denn
+    Farben treten tags\xFCber anders auf als nachts. Es ist das erste von vielen
+    Gem\xE4lden mit einem Sternenhimmel im Hintergrund. So taucht das Motiv des Sternenhimmels
+    beispielsweise in der ebenfalls im September 1888 gemalten Sternennacht \xFCber
+    der Rhone und in der im Juni 1889 entstandenen Sternennacht auf. Das auf dem
+    Gem\xE4lde gezeigte Caf\xE9 an der Place du Forum in Arles wurde 1990 umgebaut,
+    um wieder genau der Ansicht von Van Goghs Bild zu entsprechen."
+  month: 9
+  year: 1888
+  tags:
+  - van gogh
+  - september
+  - "\xF6lgem\xE4lde"
+  - frankreich
+  - arles
+  - stadtbild
+  - starker kontrast

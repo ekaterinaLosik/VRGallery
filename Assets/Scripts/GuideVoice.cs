@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class GuideVoice : MonoBehaviour
 {
-    private ActivationMode _activationMode = ActivationMode.ProximityTriggerd;
+    private ActivationMode _activationMode = ActivationMode.ButtonTriggerd;
     public ActivationMode activationMode
     {
         get

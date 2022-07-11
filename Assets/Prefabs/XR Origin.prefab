@@ -1203,7 +1203,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 74.40991, y: 19}
+  m_AnchoredPosition: {x: 74.40991, y: 35.6}
   m_SizeDelta: {x: 632.2234, y: 78.4944}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &944891511
@@ -1234,8 +1234,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Du kannst dich mit dem VR-Controller frei in der Galerie bewegen. Teleportieren
-    funktioniert ebenfalls hierr\xFCber"
+  m_text: "Du kannst dich mit dem VR-Controller frei in der Galerie bewegen (rechter
+    Joystick). Teleportieren funktioniert ebenfalls hierr\xFCber (linker Trigger)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2729,7 +2729,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -372, y: 24}
+  m_AnchoredPosition: {x: -372, y: 0.98}
   m_SizeDelta: {x: 112.6, y: 116}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1641376100
@@ -3225,8 +3225,8 @@ MonoBehaviour:
     m_RotationOrder: 4
   m_ValidColorGradient:
     serializedVersion: 2
-    key0: {r: 1, g: 1, b: 1, a: 0}
-    key1: {r: 1, g: 1, b: 1, a: 1}
+    key0: {r: 0.43447238, g: 1, b: 0.2584905, a: 0}
+    key1: {r: 0.42913973, g: 1, b: 0.32452828, a: 1}
     key2: {r: 0, g: 0, b: 0, a: 1}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
@@ -9858,7 +9858,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4039885034370167919
 Transform:
   m_ObjectHideFlags: 0
@@ -10048,7 +10048,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4039885034370167918}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
   m_Name: 
@@ -10616,8 +10616,8 @@ GameObject:
   - component: {fileID: 4039885034436881287}
   - component: {fileID: 4039885034436881286}
   - component: {fileID: 4039885034660646743}
-  - component: {fileID: 4039885034660646737}
   - component: {fileID: 4039885034660646744}
+  - component: {fileID: 1869908513}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Player
@@ -10676,21 +10676,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4039885034660646737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4039885034436881285}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16a3f6f522582044a872d737b8d63b5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  teleportInput: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  teleportRay: {fileID: 1834022428}
-  teleportationProvider: {fileID: 0}
 --- !u!114 &4039885034660646744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10706,6 +10691,22 @@ MonoBehaviour:
   m_LocomotionProvider: {fileID: 0}
   m_MinHeight: 0
   m_MaxHeight: Infinity
+--- !u!114 &1869908513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4039885034436881285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6c867b7af8c0c240ad89def26bfdbe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TeleportRay: {fileID: 1834022428}
+  TPArea: {fileID: 0}
+  teleportInput: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  teleportationProvider: {fileID: 0}
 --- !u!1 &4039885034767321051
 GameObject:
   m_ObjectHideFlags: 0
@@ -10861,7 +10862,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4039885034993166255
 Transform:
   m_ObjectHideFlags: 0
@@ -12594,6 +12595,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: KeywordManager, Assembly-CSharp
+        m_MethodName: SaveActualArtworkpool
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4897826715906825408
 GameObject:
   m_ObjectHideFlags: 0
@@ -13058,8 +13071,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "In der Galerie kannst du auf jedes Gem\xE4lde zugehen und auf den Info-Button
-    klicken, um Informationen \xFCber das Gem\xE4lde zu erhalten. \n\nAu\xDFerdem
-    kannst du es dir anh\xF6ren. Dazu bet\xE4tig den Lautsprecher-Button."
+    klicken, um Informationen \xFCber das Gem\xE4lde zu erhalten. Mit gen Grip-Button
+    kannst du Bilder bewegen\n\nAu\xDFerdem kannst du Information dir anh\xF6ren.
+    Dazu bet\xE4tig den Play-Button"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13267,6 +13281,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: VRResetPlayerPosition, Assembly-CSharp
+        m_MethodName: ResetPosition
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -13838,6 +13864,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: VRResetPlayerPosition, Assembly-CSharp
+        m_MethodName: ResetPosition
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 4039885033891529049}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -14340,6 +14378,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: VRResetPlayerPosition, Assembly-CSharp
+        m_MethodName: ResetPosition
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

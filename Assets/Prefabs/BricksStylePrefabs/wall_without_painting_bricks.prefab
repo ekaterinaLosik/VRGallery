@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8929449746847710454}
   m_Layer: 0
   m_Name: wall_without_painting_bricks
-  m_TagString: Untagged
+  m_TagString: gallery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647

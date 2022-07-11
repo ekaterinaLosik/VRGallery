@@ -23,8 +23,12 @@ public class GallerySpawner : MonoBehaviour
 
     private Artwork[] ArtworkPool;
     private int artworkCount;
-
-
+    private Artwork artwork;
+    private GameObject currentPrefab;
+    private Image image;
+    private TextMeshProUGUI infoText;
+    private GuideVoice guidevoice;
+    private int index; 
 
     void Spawn()
     {
@@ -42,35 +46,30 @@ public class GallerySpawner : MonoBehaviour
         Vector3 tpPosition = new Vector3(0,0,artworkCount*size/2 - size/2);
         TPArea.position = tpPosition;
         TPArea.localScale = tpScale;
-        int index = 0;
+        index = 0;
         while (artworkCount > 0){  
-            Artwork artwork = ArtworkPool[index];
-            
-            GameObject currentPrefab = Instantiate(prefab, leftPrefabPosition, Quaternion.identity);
-            Image image = currentPrefab.GetComponentInChildren(typeof(Image)) as Image;
-            TextMeshProUGUI infoText = currentPrefab.GetComponentInChildren(typeof(TextMeshProUGUI), true) as TextMeshProUGUI;
-            image.sprite = artwork.image;
-            infoText.text = artwork.name + ", " + artwork.author + ", " + artwork.year + System.Environment.NewLine + artwork.description;
-            GuideVoice guidevoice = currentPrefab.GetComponentInChildren(typeof(GuideVoice), true) as GuideVoice;
-            guidevoice.audioClip = artwork.audio;
-            artworkCount --;
-            index++;
-
+            artwork = ArtworkPool[index];
+            currentPrefab = Instantiate(prefab, leftPrefabPosition, Quaternion.identity);
+            SetArtwork();
             if (artworkCount > 0){
                 artwork = ArtworkPool[index];
                 currentPrefab = Instantiate(prefab, rightPrefabPosition, rightPrefabRotation);
-                image = currentPrefab.GetComponentInChildren(typeof(Image)) as Image;
-                image.sprite = artwork.image;
-                infoText = currentPrefab.GetComponentInChildren(typeof(TextMeshProUGUI), true) as TextMeshProUGUI;
-                infoText.text = artwork.name + ", " + artwork.author + ", " + artwork.year + System.Environment.NewLine + artwork.description;
-                guidevoice = currentPrefab.GetComponentInChildren(typeof(GuideVoice), true) as GuideVoice;
-                guidevoice.audioClip = artwork.audio;
-                artworkCount --;
-                index++;
+                SetArtwork();
             }
             leftPrefabPosition.z += size*2;
             rightPrefabPosition.z += size*2;
         }
+    }
+
+    private void SetArtwork(){
+        image = currentPrefab.GetComponentInChildren(typeof(Image)) as Image;
+        infoText = currentPrefab.GetComponentInChildren(typeof(TextMeshProUGUI), true) as TextMeshProUGUI;
+        image.sprite = artwork.image;    
+        infoText.text = System.Environment.NewLine + artwork.name + ", " + artwork.author + ", " + artwork.year + System.Environment.NewLine + System.Environment.NewLine + artwork.description + System.Environment.NewLine;
+        guidevoice = currentPrefab.GetComponentInChildren(typeof(GuideVoice), true) as GuideVoice;
+        guidevoice.audioClip = artwork.audio;
+        artworkCount --;
+        index++;
     }
 
    
@@ -101,6 +100,7 @@ public class GallerySpawner : MonoBehaviour
             prefab = bricks;
             wallWithoutPainting = WallWithoutPaintingBricks;
         }
+        ProfileManager.pManager.IncreaseStyleFrequency(style);
     }
 
 }
