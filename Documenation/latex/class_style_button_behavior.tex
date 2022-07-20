@@ -1,0 +1,55 @@
+\hypertarget{class_style_button_behavior}{}\doxysection{Style\+Button\+Behavior Class Reference}
+\label{class_style_button_behavior}\index{StyleButtonBehavior@{StyleButtonBehavior}}
+
+
+Behavior for style button.  
+
+
+Inheritance diagram for Style\+Button\+Behavior\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_style_button_behavior}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_style_button_behavior_abefa74912e69672f51426d8889cf61aa}\label{class_style_button_behavior_abefa74912e69672f51426d8889cf61aa}} 
+Game\+Object {\bfseries Spawn\+Manager}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_style_button_behavior_a04e7b7a1de1a5bf8f26dc2917f8592b2}{Start}} ()
+\item 
+\mbox{\Hypertarget{class_style_button_behavior_af2fd65d97a07dd802f72fb4252ed1b0c}\label{class_style_button_behavior_af2fd65d97a07dd802f72fb4252ed1b0c}} 
+void {\bfseries Task\+On\+Click} ()
+\begin{DoxyCompactList}\small\item\em When the user clicks on a task, the old galley is destroyed, the new gallery is spawned. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_style_button_behavior_ad80f8a142120104d10e2b6c1fd21f20b}\label{class_style_button_behavior_ad80f8a142120104d10e2b6c1fd21f20b}} 
+void {\bfseries Destroy\+Gallery} ()
+\begin{DoxyCompactList}\small\item\em It finds all the objects with the tag \char`\"{}gallery\char`\"{} and destroys them. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_style_button_behavior_ad8b3df4f8932270b4615dac78b8e3c7a}\label{class_style_button_behavior_ad8b3df4f8932270b4615dac78b8e3c7a}} 
+Game\+Object\mbox{[}$\,$\mbox{]} {\bfseries old\+Gallery\+Prefabs}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Behavior for style button. 
+
+When button clicked, destroys the current gallery and spawns a new one 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_style_button_behavior_a04e7b7a1de1a5bf8f26dc2917f8592b2}\label{class_style_button_behavior_a04e7b7a1de1a5bf8f26dc2917f8592b2}} 
+\index{StyleButtonBehavior@{StyleButtonBehavior}!Start@{Start}}
+\index{Start@{Start}!StyleButtonBehavior@{StyleButtonBehavior}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Style\+Button\+Behavior.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+The function is called when the script is first run. It adds a listener to the button that calls the \mbox{\hyperlink{class_style_button_behavior_af2fd65d97a07dd802f72fb4252ed1b0c}{Task\+On\+Click()}} function when the button is clicked 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/kt/\+VRGallery/\+Assets/\+Scripts/Style\+Button\+Behavior.\+cs\end{DoxyCompactItemize}

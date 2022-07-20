@@ -1,0 +1,77 @@
+\hypertarget{class_hand}{}\doxysection{Hand Class Reference}
+\label{class_hand}\index{Hand@{Hand}}
+
+
+Animate hand.  
+
+
+Inheritance diagram for Hand\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_hand}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_hand_abe33efb5b327add0bd90ec4233f9dde3}\label{class_hand_abe33efb5b327add0bd90ec4233f9dde3}} 
+float {\bfseries speed}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_hand_a65a567e1c6f0981e13fa31a246d25ef6}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_hand_a8a8a8ef8c5168062e5061808ed33bef8}{Update}} ()
+\item 
+void \mbox{\hyperlink{class_hand_adf592c0c0c9799592378c040122afdf5}{Animate\+Hand}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_hand_a4cc0d07dfc5f024becbb3058044c4763}\label{class_hand_a4cc0d07dfc5f024becbb3058044c4763}} 
+Animator {\bfseries animator}
+\item 
+\mbox{\Hypertarget{class_hand_af319e0858eb88e3701cb86e94619c1f7}\label{class_hand_af319e0858eb88e3701cb86e94619c1f7}} 
+float {\bfseries grip\+Target}
+\item 
+\mbox{\Hypertarget{class_hand_a1d9865eeb58b53bf3b9d7c5a05f76900}\label{class_hand_a1d9865eeb58b53bf3b9d7c5a05f76900}} 
+float {\bfseries trigger\+Target}
+\item 
+\mbox{\Hypertarget{class_hand_a1737dc5245ed522048e59163e41b6b99}\label{class_hand_a1737dc5245ed522048e59163e41b6b99}} 
+float {\bfseries grip\+Current}
+\item 
+\mbox{\Hypertarget{class_hand_a0919e3d5c5ae9db6e5a357a28c87e56a}\label{class_hand_a0919e3d5c5ae9db6e5a357a28c87e56a}} 
+float {\bfseries trigger\+Current}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Animate hand. 
+
+It\textquotesingle{}s a class that animates a hand model 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_hand_adf592c0c0c9799592378c040122afdf5}\label{class_hand_adf592c0c0c9799592378c040122afdf5}} 
+\index{Hand@{Hand}!AnimateHand@{AnimateHand}}
+\index{AnimateHand@{AnimateHand}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{AnimateHand()}{AnimateHand()}}
+{\footnotesize\ttfamily void Hand.\+Animate\+Hand (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+If the current grip value is not equal to the target grip value, then move the current grip value towards the target grip value by a certain amount each frame \mbox{\Hypertarget{class_hand_a65a567e1c6f0981e13fa31a246d25ef6}\label{class_hand_a65a567e1c6f0981e13fa31a246d25ef6}} 
+\index{Hand@{Hand}!Start@{Start}}
+\index{Start@{Start}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Hand.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+The function is called when the script is first run. It gets the Animator component from the Game\+Object that the script is attached to \mbox{\Hypertarget{class_hand_a8a8a8ef8c5168062e5061808ed33bef8}\label{class_hand_a8a8a8ef8c5168062e5061808ed33bef8}} 
+\index{Hand@{Hand}!Update@{Update}}
+\index{Update@{Update}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Hand.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+The function is called every frame. It checks if the hand is open or closed, and if it is open, it checks if the hand is moving. If the hand is moving, it plays the animation for the hand moving. If the hand is not moving, it plays the animation for the hand being open. If the hand is closed, it plays the animation for the hand being closed 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/kt/\+VRGallery/\+Assets/\+Scripts/Hand.\+cs\end{DoxyCompactItemize}

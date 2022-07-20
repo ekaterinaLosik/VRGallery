@@ -5,6 +5,13 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.XR.Interaction.Toolkit;
 
+/**
+* @class GallerySpawner
+*
+* @brief Spawns a gallery
+*
+* It spawns a gallery of paintings, each of which has an image, a name, an author, a year, a
+description and an audio clip. */
 public class GallerySpawner : MonoBehaviour
 {
     //for Prefabs
@@ -30,6 +37,7 @@ public class GallerySpawner : MonoBehaviour
     private GuideVoice guidevoice;
     private int index; 
 
+    /// It instantiates a prefab with a painting on it
     void Spawn()
     {
        
@@ -61,6 +69,7 @@ public class GallerySpawner : MonoBehaviour
         }
     }
 
+   /// It sets the image, text, and audio of the artwork 
     private void SetArtwork(){
         image = currentPrefab.GetComponentInChildren(typeof(Image)) as Image;
         infoText = currentPrefab.GetComponentInChildren(typeof(TextMeshProUGUI), true) as TextMeshProUGUI;
@@ -74,12 +83,17 @@ public class GallerySpawner : MonoBehaviour
 
    
     
+    /// It counts the number of artworks
     public void CountGalleryLength(){
         ArtworkPool = AppState.CurrentArtworkslist;
         artworkCount = ArtworkPool.Length;
         Debug.Log(artworkCount);
     }
 
+    /// It takes a string as an argument, sets the style of the gallery, counts the
+    /// length of the gallery, and then spawns the gallery.
+    /// 
+    /// @param style The style of the gallery.
     public void SpawnGallery(string style){
         SetStyle(style);
         CountGalleryLength();
@@ -87,6 +101,11 @@ public class GallerySpawner : MonoBehaviour
     }
        
 
+    /// This function is called when the user selects a style from the style menu. It sets the prefab
+    /// variable to the prefab of the selected style and sets the wallWithoutPainting variable to the
+    /// wallWithoutPainting prefab of the selected style
+    /// 
+    /// @param style the style of the wall
     public void SetStyle(string style){
         if (style.Equals("classic")){
             prefab = classic;
