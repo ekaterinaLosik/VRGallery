@@ -2,6 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+* @class Artwork
+*
+* @brief Artwork scriptable object
+*
+* It's a class that contains all the information about an artwork */
 [CreateAssetMenu(fileName = "New Artwork", menuName = "Artwork")]
 public class Artwork : ScriptableObject
 {

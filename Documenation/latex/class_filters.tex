@@ -1,0 +1,183 @@
+\hypertarget{class_filters}{}\doxysection{Filters Class Reference}
+\label{class_filters}\index{Filters@{Filters}}
+
+
+Filter artwors.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static string\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_filters_a8de11d95ed8575d809c623d1c2533c36}{Get\+All\+Tags}} (\mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]} artworks)
+\item 
+static string\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_filters_a7b0d82c4ef3a9cd8db578a64c89a845f}{Get\+All\+Authors}} (\mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]} artworks)
+\item 
+static List$<$ string $>$ \mbox{\hyperlink{class_filters_af493af380bc4907dc10152d00bf6c97c}{Get\+All\+Years}} (\mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]} artworks)
+\item 
+static \mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_filters_a1bff3532dfdc9dba4a1e0c47d511a75b}{Filter\+For\+Tag}} (string tag, \mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]} artworks)
+\item 
+static \mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_filters_ab0d6af6b1b92cdb2467deea2562155c4}{Filter\+For\+Author}} (string author, \mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]} artworks)
+\item 
+static \mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_filters_a7127dafd63a85d91f2bde81320881068}{Filter\+For\+Cv}} (string author, \mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]} artworks)
+\item 
+static \mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_filters_af3e0d8a01c8b9d4e0c0bbd68aeda814a}{Filter\+For\+Year}} (int year, \mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]} artworks)
+\item 
+static ? \mbox{\hyperlink{class_artwork}{Artwork}} \mbox{\hyperlink{class_filters_a22a5fa56c1bbcb825d3d158d74b65861}{Get\+Artwork\+By\+Name}} (string name, \mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]} artworks)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_filters_af6ee3debdf43c75819140ae55f11ef9d}\label{class_filters_af6ee3debdf43c75819140ae55f11ef9d}} 
+static List$<$ \mbox{\hyperlink{class_artwork}{Artwork}} $>$ {\bfseries Selected\+Artworkslist}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Filter artwors. 
+
+It\textquotesingle{}s a class that contains methods that filter an array of \mbox{\hyperlink{class_artwork}{Artwork}} objects based on different criteria 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_filters_ab0d6af6b1b92cdb2467deea2562155c4}\label{class_filters_ab0d6af6b1b92cdb2467deea2562155c4}} 
+\index{Filters@{Filters}!FilterForAuthor@{FilterForAuthor}}
+\index{FilterForAuthor@{FilterForAuthor}!Filters@{Filters}}
+\doxysubsubsection{\texorpdfstring{FilterForAuthor()}{FilterForAuthor()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]} Filters.\+Filter\+For\+Author (\begin{DoxyParamCaption}\item[{string}]{author,  }\item[{\mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]}}]{artworks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+It takes an array of \mbox{\hyperlink{class_artwork}{Artwork}} objects and a string, and returns an array of \mbox{\hyperlink{class_artwork}{Artwork}} objects that have the same author as the string
+
+
+\begin{DoxyParams}{Parameters}
+{\em author} & The author to filter for \\
+\hline
+{\em artworks} & The array of artworks to filter\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An array of \mbox{\hyperlink{class_artwork}{Artwork}} objects. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_filters_a7127dafd63a85d91f2bde81320881068}\label{class_filters_a7127dafd63a85d91f2bde81320881068}} 
+\index{Filters@{Filters}!FilterForCv@{FilterForCv}}
+\index{FilterForCv@{FilterForCv}!Filters@{Filters}}
+\doxysubsubsection{\texorpdfstring{FilterForCv()}{FilterForCv()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]} Filters.\+Filter\+For\+Cv (\begin{DoxyParamCaption}\item[{string}]{author,  }\item[{\mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]}}]{artworks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+It takes an author and an array of artworks, filters the array for the author, and then orders the array by month and year
+
+
+\begin{DoxyParams}{Parameters}
+{\em author} & \\
+\hline
+{\em artworks} & an array of \mbox{\hyperlink{class_artwork}{Artwork}} objects\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An array of \mbox{\hyperlink{class_artwork}{Artwork}} objects. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_filters_a1bff3532dfdc9dba4a1e0c47d511a75b}\label{class_filters_a1bff3532dfdc9dba4a1e0c47d511a75b}} 
+\index{Filters@{Filters}!FilterForTag@{FilterForTag}}
+\index{FilterForTag@{FilterForTag}!Filters@{Filters}}
+\doxysubsubsection{\texorpdfstring{FilterForTag()}{FilterForTag()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]} Filters.\+Filter\+For\+Tag (\begin{DoxyParamCaption}\item[{string}]{tag,  }\item[{\mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]}}]{artworks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+It takes an array of artworks and a tag, and returns an array of artworks that have that tag
+
+
+\begin{DoxyParams}{Parameters}
+{\em tag} & The tag to filter for \\
+\hline
+{\em artworks} & The array of \mbox{\hyperlink{class_artwork}{Artwork}} objects to filter\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An array of \mbox{\hyperlink{class_artwork}{Artwork}} objects. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_filters_af3e0d8a01c8b9d4e0c0bbd68aeda814a}\label{class_filters_af3e0d8a01c8b9d4e0c0bbd68aeda814a}} 
+\index{Filters@{Filters}!FilterForYear@{FilterForYear}}
+\index{FilterForYear@{FilterForYear}!Filters@{Filters}}
+\doxysubsubsection{\texorpdfstring{FilterForYear()}{FilterForYear()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]} Filters.\+Filter\+For\+Year (\begin{DoxyParamCaption}\item[{int}]{year,  }\item[{\mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]}}]{artworks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+It takes an array of \mbox{\hyperlink{class_artwork}{Artwork}} objects and returns an array of \mbox{\hyperlink{class_artwork}{Artwork}} objects that were created in the year specified by the year parameter
+
+
+\begin{DoxyParams}{Parameters}
+{\em year} & The year to filter for \\
+\hline
+{\em artworks} & The array of \mbox{\hyperlink{class_artwork}{Artwork}} objects to filter.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An array of \mbox{\hyperlink{class_artwork}{Artwork}} objects. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_filters_a7b0d82c4ef3a9cd8db578a64c89a845f}\label{class_filters_a7b0d82c4ef3a9cd8db578a64c89a845f}} 
+\index{Filters@{Filters}!GetAllAuthors@{GetAllAuthors}}
+\index{GetAllAuthors@{GetAllAuthors}!Filters@{Filters}}
+\doxysubsubsection{\texorpdfstring{GetAllAuthors()}{GetAllAuthors()}}
+{\footnotesize\ttfamily static string\mbox{[}$\,$\mbox{]} Filters.\+Get\+All\+Authors (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]}}]{artworks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+It takes an array of \mbox{\hyperlink{class_artwork}{Artwork}} objects, loops through each one, and adds the author to a list if it\textquotesingle{}s not already in the list
+
+
+\begin{DoxyParams}{Parameters}
+{\em artworks} & An array of \mbox{\hyperlink{class_artwork}{Artwork}} objects.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An array of strings 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_filters_a8de11d95ed8575d809c623d1c2533c36}\label{class_filters_a8de11d95ed8575d809c623d1c2533c36}} 
+\index{Filters@{Filters}!GetAllTags@{GetAllTags}}
+\index{GetAllTags@{GetAllTags}!Filters@{Filters}}
+\doxysubsubsection{\texorpdfstring{GetAllTags()}{GetAllTags()}}
+{\footnotesize\ttfamily static string\mbox{[}$\,$\mbox{]} Filters.\+Get\+All\+Tags (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]}}]{artworks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+It takes an array of \mbox{\hyperlink{class_artwork}{Artwork}} objects, loops through each \mbox{\hyperlink{class_artwork}{Artwork}} object, loops through each tag in the \mbox{\hyperlink{class_artwork}{Artwork}} object, and adds the tag to a list of tags if it doesn\textquotesingle{}t already exist in the list
+
+
+\begin{DoxyParams}{Parameters}
+{\em artworks} & The array of artworks to get the tags from.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An array of strings. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_filters_af493af380bc4907dc10152d00bf6c97c}\label{class_filters_af493af380bc4907dc10152d00bf6c97c}} 
+\index{Filters@{Filters}!GetAllYears@{GetAllYears}}
+\index{GetAllYears@{GetAllYears}!Filters@{Filters}}
+\doxysubsubsection{\texorpdfstring{GetAllYears()}{GetAllYears()}}
+{\footnotesize\ttfamily static List$<$ string $>$ Filters.\+Get\+All\+Years (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]}}]{artworks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+It takes an array of \mbox{\hyperlink{class_artwork}{Artwork}} objects, loops through each one, and adds the year to a list if it\textquotesingle{}s not already in the list
+
+
+\begin{DoxyParams}{Parameters}
+{\em artworks} & The array of \mbox{\hyperlink{class_artwork}{Artwork}} objects\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A list of strings 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_filters_a22a5fa56c1bbcb825d3d158d74b65861}\label{class_filters_a22a5fa56c1bbcb825d3d158d74b65861}} 
+\index{Filters@{Filters}!GetArtworkByName@{GetArtworkByName}}
+\index{GetArtworkByName@{GetArtworkByName}!Filters@{Filters}}
+\doxysubsubsection{\texorpdfstring{GetArtworkByName()}{GetArtworkByName()}}
+{\footnotesize\ttfamily static ? \mbox{\hyperlink{class_artwork}{Artwork}} Filters.\+Get\+Artwork\+By\+Name (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{\mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]}}]{artworks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+It takes a string and an array of \mbox{\hyperlink{class_artwork}{Artwork}} objects, and returns the first \mbox{\hyperlink{class_artwork}{Artwork}} object in the array whose name property matches the string
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the artwork you want to get. \\
+\hline
+{\em artworks} & The array of \mbox{\hyperlink{class_artwork}{Artwork}} objects that you want to search through.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The first artwork with the name that matches the name parameter. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/kt/\+VRGallery/\+Assets/\+Scripts/Filters.\+cs\end{DoxyCompactItemize}

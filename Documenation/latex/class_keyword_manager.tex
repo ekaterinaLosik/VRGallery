@@ -1,0 +1,214 @@
+\hypertarget{class_keyword_manager}{}\doxysection{Keyword\+Manager Class Reference}
+\label{class_keyword_manager}\index{KeywordManager@{KeywordManager}}
+
+
+Manager for keywords and filters.  
+
+
+Inheritance diagram for Keyword\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_keyword_manager}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_keyword_manager_a3614eb5eb50044a707c59838ebae4fe3}{Get\+Artwork\+By\+Name}} (string name)
+\item 
+void \mbox{\hyperlink{class_keyword_manager_ab0f43f37b3b18aed1ce292d25ce54d1c}{Filter\+For\+Year}} (int year)
+\item 
+void \mbox{\hyperlink{class_keyword_manager_a66c39e7886b928a71dd529ab0c9d48a4}{Filter\+For\+Cv}} (string author)
+\item 
+void \mbox{\hyperlink{class_keyword_manager_a641c3efb19e5ecd27159053780b711c2}{Filter\+For\+Tag}} (List$<$ string $>$ tags)
+\item 
+\mbox{\Hypertarget{class_keyword_manager_ac6c68cbf088a08f1ef1c4e7010e22b37}\label{class_keyword_manager_ac6c68cbf088a08f1ef1c4e7010e22b37}} 
+void {\bfseries Count\+Artworks} ()
+\begin{DoxyCompactList}\small\item\em It counts the number of artworks in the Artwork\+Pool and displays it in the Artwork\+Count\+Field. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_keyword_manager_abf1d3513c9e5b0d4ecdd13ffa68fbe32}{Create\+Filter\+Buttons}} ()
+\item 
+void \mbox{\hyperlink{class_keyword_manager_a70a8870307833396198558093ca18d3a}{Create\+Author\+Buttons}} ()
+\item 
+void \mbox{\hyperlink{class_keyword_manager_acca619072138c06824a89451d39aaabc}{Add\+To\+Filter\+List}} (string filter)
+\item 
+\mbox{\Hypertarget{class_keyword_manager_ac03f266f57c91802b7d4119bc460cad9}\label{class_keyword_manager_ac03f266f57c91802b7d4119bc460cad9}} 
+void {\bfseries Save\+Actual\+Artworkpool} ()
+\begin{DoxyCompactList}\small\item\em It saves the current artworks list to the App\+State.\+Current\+Artworkslist variable. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_keyword_manager_a1151ed136ac6c5b982f0132f4b9dec9b}{Reset\+Pool}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_keyword_manager_a9c870e7116fb055f2d31968e2485a5ed}\label{class_keyword_manager_a9c870e7116fb055f2d31968e2485a5ed}} 
+string\mbox{[}$\,$\mbox{]} {\bfseries All\+Tags}
+\item 
+\mbox{\Hypertarget{class_keyword_manager_ac5263a85faf965a6027afde2e95f47e8}\label{class_keyword_manager_ac5263a85faf965a6027afde2e95f47e8}} 
+string\mbox{[}$\,$\mbox{]} {\bfseries All\+Authors}
+\item 
+\mbox{\Hypertarget{class_keyword_manager_a3a1f993266676fe75e72616207a83e48}\label{class_keyword_manager_a3a1f993266676fe75e72616207a83e48}} 
+\mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]} {\bfseries Artwork\+Pool}
+\item 
+\mbox{\Hypertarget{class_keyword_manager_a78a1f77f703898e387dcbefbe3283856}\label{class_keyword_manager_a78a1f77f703898e387dcbefbe3283856}} 
+Text\+Mesh\+Pro\+UGUI {\bfseries Artwork\+Count\+Field}
+\item 
+\mbox{\Hypertarget{class_keyword_manager_acc1138f050c15e343c747b6fe1f7ae06}\label{class_keyword_manager_acc1138f050c15e343c747b6fe1f7ae06}} 
+Text\+Mesh\+Pro\+UGUI {\bfseries Current\+Filter}
+\item 
+\mbox{\Hypertarget{class_keyword_manager_a658d3adaa05bc55a6e46c207ddf2382d}\label{class_keyword_manager_a658d3adaa05bc55a6e46c207ddf2382d}} 
+Text\+Mesh\+Pro\+UGUI {\bfseries Current\+Author}
+\item 
+\mbox{\Hypertarget{class_keyword_manager_ad0d0f3e5fee01c4f128776b01a9a0e83}\label{class_keyword_manager_ad0d0f3e5fee01c4f128776b01a9a0e83}} 
+Transform {\bfseries Filter\+Buttons\+Panel}
+\item 
+\mbox{\Hypertarget{class_keyword_manager_ac4796e5fed915011d4a8ca492a2ef07c}\label{class_keyword_manager_ac4796e5fed915011d4a8ca492a2ef07c}} 
+Transform {\bfseries Author\+Buttons\+Panel}
+\item 
+\mbox{\Hypertarget{class_keyword_manager_a4cbb338c58c6a48ba6f8a232cfb3d7b0}\label{class_keyword_manager_a4cbb338c58c6a48ba6f8a232cfb3d7b0}} 
+Toggle {\bfseries Filter\+Buton}
+\item 
+\mbox{\Hypertarget{class_keyword_manager_a3c29ef0e053af240f20c23d8f9f51a53}\label{class_keyword_manager_a3c29ef0e053af240f20c23d8f9f51a53}} 
+Button {\bfseries CVButon}
+\item 
+\mbox{\Hypertarget{class_keyword_manager_a18a0282a4865e1bd3e1611d048ee7706}\label{class_keyword_manager_a18a0282a4865e1bd3e1611d048ee7706}} 
+Game\+Object {\bfseries Alarm\+Panel}
+\item 
+\mbox{\Hypertarget{class_keyword_manager_a8fe2430643df47aa9500a7d5c23a77ec}\label{class_keyword_manager_a8fe2430643df47aa9500a7d5c23a77ec}} 
+Game\+Object {\bfseries Profile\+Manager}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_keyword_manager_abacf20f67a057d8fcb15428752c63e3e}{Start}} ()
+\item 
+bool \mbox{\hyperlink{class_keyword_manager_aeac7af4cca7e9882987229a3fa06adff}{Is\+Tags\+List\+Empty}} ()
+\item 
+void \mbox{\hyperlink{class_keyword_manager_ab27d3f635193a079deff2fbbe52f61a5}{Display\+Filters}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_keyword_manager_a9b5b92899044185f5357d44a1bbf8867}\label{class_keyword_manager_a9b5b92899044185f5357d44a1bbf8867}} 
+\mbox{\hyperlink{class_artwork}{Artwork}}\mbox{[}$\,$\mbox{]} {\bfseries All\+Artworks}
+\item 
+\mbox{\Hypertarget{class_keyword_manager_afdd740bf113ea84eca731e79be3f26ba}\label{class_keyword_manager_afdd740bf113ea84eca731e79be3f26ba}} 
+List$<$ string $>$ {\bfseries tags\+List}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Manager for keywords and filters. 
+
+It\textquotesingle{}s a class that manages the keywords and filters for the artworks 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_keyword_manager_acca619072138c06824a89451d39aaabc}\label{class_keyword_manager_acca619072138c06824a89451d39aaabc}} 
+\index{KeywordManager@{KeywordManager}!AddToFilterList@{AddToFilterList}}
+\index{AddToFilterList@{AddToFilterList}!KeywordManager@{KeywordManager}}
+\doxysubsubsection{\texorpdfstring{AddToFilterList()}{AddToFilterList()}}
+{\footnotesize\ttfamily void Keyword\+Manager.\+Add\+To\+Filter\+List (\begin{DoxyParamCaption}\item[{string}]{filter }\end{DoxyParamCaption})}
+
+If the filter is in the list of all tags, then add it to the list of filters. If it\textquotesingle{}s not in the list of all tags, then display an alarm panel
+
+
+\begin{DoxyParams}{Parameters}
+{\em filter} & the string that is being added to the list \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_keyword_manager_a70a8870307833396198558093ca18d3a}\label{class_keyword_manager_a70a8870307833396198558093ca18d3a}} 
+\index{KeywordManager@{KeywordManager}!CreateAuthorButtons@{CreateAuthorButtons}}
+\index{CreateAuthorButtons@{CreateAuthorButtons}!KeywordManager@{KeywordManager}}
+\doxysubsubsection{\texorpdfstring{CreateAuthorButtons()}{CreateAuthorButtons()}}
+{\footnotesize\ttfamily void Keyword\+Manager.\+Create\+Author\+Buttons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+For each author in the list of all authors, create a button, set the button\textquotesingle{}s label to the author\textquotesingle{}s name, and add a listener to the button that calls the function \mbox{\hyperlink{class_keyword_manager_a66c39e7886b928a71dd529ab0c9d48a4}{Filter\+For\+Cv()}} when the button is clicked \mbox{\Hypertarget{class_keyword_manager_abf1d3513c9e5b0d4ecdd13ffa68fbe32}\label{class_keyword_manager_abf1d3513c9e5b0d4ecdd13ffa68fbe32}} 
+\index{KeywordManager@{KeywordManager}!CreateFilterButtons@{CreateFilterButtons}}
+\index{CreateFilterButtons@{CreateFilterButtons}!KeywordManager@{KeywordManager}}
+\doxysubsubsection{\texorpdfstring{CreateFilterButtons()}{CreateFilterButtons()}}
+{\footnotesize\ttfamily void Keyword\+Manager.\+Create\+Filter\+Buttons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+It creates a toggle button for each tag in the All\+Tags list, and adds a listener to each button that adds the button\textquotesingle{}s text to the filter list when the button is toggled on. \mbox{\Hypertarget{class_keyword_manager_ab27d3f635193a079deff2fbbe52f61a5}\label{class_keyword_manager_ab27d3f635193a079deff2fbbe52f61a5}} 
+\index{KeywordManager@{KeywordManager}!DisplayFilters@{DisplayFilters}}
+\index{DisplayFilters@{DisplayFilters}!KeywordManager@{KeywordManager}}
+\doxysubsubsection{\texorpdfstring{DisplayFilters()}{DisplayFilters()}}
+{\footnotesize\ttfamily void Keyword\+Manager.\+Display\+Filters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+If the list of tags is empty, display all artworks. If the list of tags is not empty, filter the artworks for the tags in the list. \mbox{\Hypertarget{class_keyword_manager_a66c39e7886b928a71dd529ab0c9d48a4}\label{class_keyword_manager_a66c39e7886b928a71dd529ab0c9d48a4}} 
+\index{KeywordManager@{KeywordManager}!FilterForCv@{FilterForCv}}
+\index{FilterForCv@{FilterForCv}!KeywordManager@{KeywordManager}}
+\doxysubsubsection{\texorpdfstring{FilterForCv()}{FilterForCv()}}
+{\footnotesize\ttfamily void Keyword\+Manager.\+Filter\+For\+Cv (\begin{DoxyParamCaption}\item[{string}]{author }\end{DoxyParamCaption})}
+
+It takes a string as an argument, filters the list of artworks for the given author and then sets the text of the current author text field to the given author
+
+
+\begin{DoxyParams}{Parameters}
+{\em author} & The name of the author to filter for \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_keyword_manager_a641c3efb19e5ecd27159053780b711c2}\label{class_keyword_manager_a641c3efb19e5ecd27159053780b711c2}} 
+\index{KeywordManager@{KeywordManager}!FilterForTag@{FilterForTag}}
+\index{FilterForTag@{FilterForTag}!KeywordManager@{KeywordManager}}
+\doxysubsubsection{\texorpdfstring{FilterForTag()}{FilterForTag()}}
+{\footnotesize\ttfamily void Keyword\+Manager.\+Filter\+For\+Tag (\begin{DoxyParamCaption}\item[{List$<$ string $>$}]{tags }\end{DoxyParamCaption})}
+
+If there\textquotesingle{}s only one tag, then filter the artworks for that tag. If there\textquotesingle{}s more than one tag, then filter the artworks for each tag and add them to a list. If there\textquotesingle{}s no tags, then set the artwork pool to null
+
+
+\begin{DoxyParams}{Parameters}
+{\em tags} & A list of tags to filter for. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_keyword_manager_ab0f43f37b3b18aed1ce292d25ce54d1c}\label{class_keyword_manager_ab0f43f37b3b18aed1ce292d25ce54d1c}} 
+\index{KeywordManager@{KeywordManager}!FilterForYear@{FilterForYear}}
+\index{FilterForYear@{FilterForYear}!KeywordManager@{KeywordManager}}
+\doxysubsubsection{\texorpdfstring{FilterForYear()}{FilterForYear()}}
+{\footnotesize\ttfamily void Keyword\+Manager.\+Filter\+For\+Year (\begin{DoxyParamCaption}\item[{int}]{year }\end{DoxyParamCaption})}
+
+It takes a year as an argument, and then filters the Artwork\+Pool to only contain artworks from that year
+
+
+\begin{DoxyParams}{Parameters}
+{\em year} & The year to filter for \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_keyword_manager_a3614eb5eb50044a707c59838ebae4fe3}\label{class_keyword_manager_a3614eb5eb50044a707c59838ebae4fe3}} 
+\index{KeywordManager@{KeywordManager}!GetArtworkByName@{GetArtworkByName}}
+\index{GetArtworkByName@{GetArtworkByName}!KeywordManager@{KeywordManager}}
+\doxysubsubsection{\texorpdfstring{GetArtworkByName()}{GetArtworkByName()}}
+{\footnotesize\ttfamily void Keyword\+Manager.\+Get\+Artwork\+By\+Name (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})}
+
+If the artwork is found, it is added to the Artwork\+Pool. If it is not found, the Artwork\+Pool is emptied
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the artwork to search for \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_keyword_manager_aeac7af4cca7e9882987229a3fa06adff}\label{class_keyword_manager_aeac7af4cca7e9882987229a3fa06adff}} 
+\index{KeywordManager@{KeywordManager}!IsTagsListEmpty@{IsTagsListEmpty}}
+\index{IsTagsListEmpty@{IsTagsListEmpty}!KeywordManager@{KeywordManager}}
+\doxysubsubsection{\texorpdfstring{IsTagsListEmpty()}{IsTagsListEmpty()}}
+{\footnotesize\ttfamily bool Keyword\+Manager.\+Is\+Tags\+List\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+If the tags\+List is empty, return true, else return false
+
+\begin{DoxyReturn}{Returns}
+The method returns a boolean value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_keyword_manager_a1151ed136ac6c5b982f0132f4b9dec9b}\label{class_keyword_manager_a1151ed136ac6c5b982f0132f4b9dec9b}} 
+\index{KeywordManager@{KeywordManager}!ResetPool@{ResetPool}}
+\index{ResetPool@{ResetPool}!KeywordManager@{KeywordManager}}
+\doxysubsubsection{\texorpdfstring{ResetPool()}{ResetPool()}}
+{\footnotesize\ttfamily void Keyword\+Manager.\+Reset\+Pool (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+It resets the pool of artworks to the full list of artworks, resets the filter and author text and counts the artworks \mbox{\Hypertarget{class_keyword_manager_abacf20f67a057d8fcb15428752c63e3e}\label{class_keyword_manager_abacf20f67a057d8fcb15428752c63e3e}} 
+\index{KeywordManager@{KeywordManager}!Start@{Start}}
+\index{Start@{Start}!KeywordManager@{KeywordManager}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Keyword\+Manager.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+The function is called when the application starts. It resets the pool of artworks, creates a list of tags, gets all the tags from the artworks, gets all the authors from the artworks, creates the filter buttons, and creates the author buttons 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/kt/\+VRGallery/\+Assets/\+Scripts/Keyword\+Manager.\+cs\end{DoxyCompactItemize}

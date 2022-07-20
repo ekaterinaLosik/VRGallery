@@ -1,0 +1,96 @@
+\hypertarget{class_teleporter}{}\doxysection{Teleporter Class Reference}
+\label{class_teleporter}\index{Teleporter@{Teleporter}}
+
+
+Custom teleporter.  
+
+
+Inheritance diagram for Teleporter\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_teleporter}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_teleporter_ad517aa19b26d49b07a6151a0c6170f28}\label{class_teleporter_ad517aa19b26d49b07a6151a0c6170f28}} 
+Game\+Object {\bfseries Teleport\+Ray}
+\item 
+\mbox{\Hypertarget{class_teleporter_ace01cf51ce415a6dcda7356bc67f2c3f}\label{class_teleporter_ace01cf51ce415a6dcda7356bc67f2c3f}} 
+Teleportation\+Area {\bfseries TPArea}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_teleporter_a8746cd397d008350293170d7a47c5ba0}\label{class_teleporter_a8746cd397d008350293170d7a47c5ba0}} 
+void {\bfseries Start} ()
+\begin{DoxyCompactList}\small\item\em The function is called when the scene starts. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_teleporter_ab77762a19e19ff395123440af255a250}{On\+Enable}} ()
+\item 
+void \mbox{\hyperlink{class_teleporter_aa3f42e72d77f702a73e14b1aba5204b2}{On\+Disable}} ()
+\item 
+void \mbox{\hyperlink{class_teleporter_a366d8f30ddb436bcadc0f542e6ac6856}{Button\+Pressed}} (Input\+Action.\+Callback\+Context obj)
+\item 
+async void \mbox{\hyperlink{class_teleporter_a2f681e3dca492ff78381223197131ac1}{Button\+Released}} (Input\+Action.\+Callback\+Context obj)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_teleporter_a4661bb0adc7fec58bc9484a4d477b779}\label{class_teleporter_a4661bb0adc7fec58bc9484a4d477b779}} 
+Input\+Action\+Reference {\bfseries teleport\+Input}
+\item 
+\mbox{\Hypertarget{class_teleporter_abdc7f22327dc1c04c79bbb522f35bd69}\label{class_teleporter_abdc7f22327dc1c04c79bbb522f35bd69}} 
+Teleportation\+Provider {\bfseries teleportation\+Provider}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Custom teleporter. 
+
+\mbox{\hyperlink{class_teleporter}{Teleporter}}, that activates ray only after pressing trigger button 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_teleporter_a366d8f30ddb436bcadc0f542e6ac6856}\label{class_teleporter_a366d8f30ddb436bcadc0f542e6ac6856}} 
+\index{Teleporter@{Teleporter}!ButtonPressed@{ButtonPressed}}
+\index{ButtonPressed@{ButtonPressed}!Teleporter@{Teleporter}}
+\doxysubsubsection{\texorpdfstring{ButtonPressed()}{ButtonPressed()}}
+{\footnotesize\ttfamily void Teleporter.\+Button\+Pressed (\begin{DoxyParamCaption}\item[{Input\+Action.\+Callback\+Context}]{obj }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+When the button is pressed, the Teleport\+Ray is set to active
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & The context of the action. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_teleporter_a2f681e3dca492ff78381223197131ac1}\label{class_teleporter_a2f681e3dca492ff78381223197131ac1}} 
+\index{Teleporter@{Teleporter}!ButtonReleased@{ButtonReleased}}
+\index{ButtonReleased@{ButtonReleased}!Teleporter@{Teleporter}}
+\doxysubsubsection{\texorpdfstring{ButtonReleased()}{ButtonReleased()}}
+{\footnotesize\ttfamily async void Teleporter.\+Button\+Released (\begin{DoxyParamCaption}\item[{Input\+Action.\+Callback\+Context}]{obj }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+When the button is released, the raycast is turned off
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & The context of the action. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_teleporter_aa3f42e72d77f702a73e14b1aba5204b2}\label{class_teleporter_aa3f42e72d77f702a73e14b1aba5204b2}} 
+\index{Teleporter@{Teleporter}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!Teleporter@{Teleporter}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily void Teleporter.\+On\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+When the script is disabled, disable the teleport\+Input action and remove the event listeners for the button pressed and button released events \mbox{\Hypertarget{class_teleporter_ab77762a19e19ff395123440af255a250}\label{class_teleporter_ab77762a19e19ff395123440af255a250}} 
+\index{Teleporter@{Teleporter}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!Teleporter@{Teleporter}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily void Teleporter.\+On\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+When the script is enabled, enable the teleport\+Input action, and add the Button\+Pressed and Button\+Released functions to the started and canceled events. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/kt/\+VRGallery/\+Assets/\+Scripts/\+VR/Teleporter.\+cs\end{DoxyCompactItemize}

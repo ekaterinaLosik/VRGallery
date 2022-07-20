@@ -1,0 +1,179 @@
+\hypertarget{class_keywords_speech_recognition}{}\doxysection{Keywords\+Speech\+Recognition Class Reference}
+\label{class_keywords_speech_recognition}\index{KeywordsSpeechRecognition@{KeywordsSpeechRecognition}}
+
+
+Speech recognition class.  
+
+
+Inheritance diagram for Keywords\+Speech\+Recognition\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_keywords_speech_recognition}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_keywords_speech_recognition_a241afcfaabaef7d071be205c44c40fe9}\label{class_keywords_speech_recognition_a241afcfaabaef7d071be205c44c40fe9}} 
+void {\bfseries Start\+Speech\+To\+Text} ()
+\begin{DoxyCompactList}\small\item\em It starts the speech to text function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_keywords_speech_recognition_aaf65f39f94747d43b32d282745d28327}{Stop\+Speech\+To\+Text}} ()
+\item 
+string\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_keywords_speech_recognition_a862c672782c017ae9d9f8475c5e17f6b}{Return\+Guesses}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_keywords_speech_recognition_a620dab3f471e306589fc9cb9527817b9}\label{class_keywords_speech_recognition_a620dab3f471e306589fc9cb9527817b9}} 
+string\mbox{[}$\,$\mbox{]} {\bfseries taglist}
+\item 
+\mbox{\Hypertarget{class_keywords_speech_recognition_a05b64533dfc610413475cb01ef4ad5d3}\label{class_keywords_speech_recognition_a05b64533dfc610413475cb01ef4ad5d3}} 
+string {\bfseries first\+Guess}
+\item 
+\mbox{\Hypertarget{class_keywords_speech_recognition_a81414f8910661fbc7fbab1b44b1aa43c}\label{class_keywords_speech_recognition_a81414f8910661fbc7fbab1b44b1aa43c}} 
+List$<$ string $>$ {\bfseries second\+Guess}
+\item 
+\mbox{\Hypertarget{class_keywords_speech_recognition_a13a90b4a3f522dbd3a1025455a1ba33b}\label{class_keywords_speech_recognition_a13a90b4a3f522dbd3a1025455a1ba33b}} 
+Game\+Object {\bfseries Filter\+Manager}
+\item 
+\mbox{\Hypertarget{class_keywords_speech_recognition_a6c63fa3a4e60490e7319707c9143513d}\label{class_keywords_speech_recognition_a6c63fa3a4e60490e7319707c9143513d}} 
+Toggle {\bfseries Micro\+Toggle}
+\item 
+\mbox{\Hypertarget{class_keywords_speech_recognition_a62130e76e98305dcfb44e528aac35cda}\label{class_keywords_speech_recognition_a62130e76e98305dcfb44e528aac35cda}} 
+Text\+Mesh\+Pro\+UGUI {\bfseries Toggle\+Text}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_keywords_speech_recognition_aeaa8c7fac6edb7649b65d05662ef86d4}\label{class_keywords_speech_recognition_aeaa8c7fac6edb7649b65d05662ef86d4}} 
+void {\bfseries Start} ()
+\begin{DoxyCompactList}\small\item\em It adds a listener to the Micro\+Toggle object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_keywords_speech_recognition_a474fc05a85117e9ff9b9572d7a8d7925}{Toggle\+Value\+Changed}} (Toggle change)
+\item 
+\mbox{\Hypertarget{class_keywords_speech_recognition_a24ad2883284d6cae8ffd16c066ecb978}\label{class_keywords_speech_recognition_a24ad2883284d6cae8ffd16c066ecb978}} 
+IEnumerator {\bfseries Wait\+And\+Return\+Text} ()
+\begin{DoxyCompactList}\small\item\em It waits for 1 second, then it adds the first guess to the filter list. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_keywords_speech_recognition_a3a53564f25c7e7aa98c16ca6759517dc}{On\+Enable}} ()
+\item 
+void \mbox{\hyperlink{class_keywords_speech_recognition_a2d9e4d557c5309f57f3f85a15d928c2d}{Dictation\+Recognizer\+\_\+\+Dictation\+Hypothesis}} (string text)
+\item 
+void \mbox{\hyperlink{class_keywords_speech_recognition_abadc0b85f7ac82005205d9d533398074}{Dictation\+Recognizer\+\_\+\+Dictation\+Result}} (string text, Confidence\+Level confidence)
+\item 
+void \mbox{\hyperlink{class_keywords_speech_recognition_a76697a35144d79c0f943479e7a27effe}{Dictation\+Recognizer\+\_\+\+Dictation\+Error}} (string error, int hresult)
+\item 
+void \mbox{\hyperlink{class_keywords_speech_recognition_a47e98ddf9196173283b2c7057a6c42c8}{On\+Disable}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_keywords_speech_recognition_acf9951a7b3869dfe152a2b811b27e5c5}\label{class_keywords_speech_recognition_acf9951a7b3869dfe152a2b811b27e5c5}} 
+Dictation\+Recognizer {\bfseries dr}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Speech recognition class. 
+
+It listens to what you say and tries to find a match in the taglist. If it finds a match it adds it to the first\+Guess or second\+Guess list 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_keywords_speech_recognition_a76697a35144d79c0f943479e7a27effe}\label{class_keywords_speech_recognition_a76697a35144d79c0f943479e7a27effe}} 
+\index{KeywordsSpeechRecognition@{KeywordsSpeechRecognition}!DictationRecognizer\_DictationError@{DictationRecognizer\_DictationError}}
+\index{DictationRecognizer\_DictationError@{DictationRecognizer\_DictationError}!KeywordsSpeechRecognition@{KeywordsSpeechRecognition}}
+\doxysubsubsection{\texorpdfstring{DictationRecognizer\_DictationError()}{DictationRecognizer\_DictationError()}}
+{\footnotesize\ttfamily void Keywords\+Speech\+Recognition.\+Dictation\+Recognizer\+\_\+\+Dictation\+Error (\begin{DoxyParamCaption}\item[{string}]{error,  }\item[{int}]{hresult }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+The function is called when the dictation recognizer encounters an error
+
+
+\begin{DoxyParams}{Parameters}
+{\em error} & The error message. \\
+\hline
+{\em hresult} & The error code. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_keywords_speech_recognition_a2d9e4d557c5309f57f3f85a15d928c2d}\label{class_keywords_speech_recognition_a2d9e4d557c5309f57f3f85a15d928c2d}} 
+\index{KeywordsSpeechRecognition@{KeywordsSpeechRecognition}!DictationRecognizer\_DictationHypothesis@{DictationRecognizer\_DictationHypothesis}}
+\index{DictationRecognizer\_DictationHypothesis@{DictationRecognizer\_DictationHypothesis}!KeywordsSpeechRecognition@{KeywordsSpeechRecognition}}
+\doxysubsubsection{\texorpdfstring{DictationRecognizer\_DictationHypothesis()}{DictationRecognizer\_DictationHypothesis()}}
+{\footnotesize\ttfamily void Keywords\+Speech\+Recognition.\+Dictation\+Recognizer\+\_\+\+Dictation\+Hypothesis (\begin{DoxyParamCaption}\item[{string}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+The function takes the text that the user is currently saying and splits it into a list of words. It then adds the entire text to the list. It then checks if any of the words in the list are in the list of tags. If they are, it adds them to a list of second guesses
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & The text that was recognized by the dictation recognizer. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_keywords_speech_recognition_abadc0b85f7ac82005205d9d533398074}\label{class_keywords_speech_recognition_abadc0b85f7ac82005205d9d533398074}} 
+\index{KeywordsSpeechRecognition@{KeywordsSpeechRecognition}!DictationRecognizer\_DictationResult@{DictationRecognizer\_DictationResult}}
+\index{DictationRecognizer\_DictationResult@{DictationRecognizer\_DictationResult}!KeywordsSpeechRecognition@{KeywordsSpeechRecognition}}
+\doxysubsubsection{\texorpdfstring{DictationRecognizer\_DictationResult()}{DictationRecognizer\_DictationResult()}}
+{\footnotesize\ttfamily void Keywords\+Speech\+Recognition.\+Dictation\+Recognizer\+\_\+\+Dictation\+Result (\begin{DoxyParamCaption}\item[{string}]{text,  }\item[{Confidence\+Level}]{confidence }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+If the user says a word that is in the taglist, then add it to the first\+Guess variable. If the first\+Guess variable is not empty, then add the first\+Guess variable to the second\+Guess list. Then, set the first\+Guess variable to the word that the user just said
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & The text that was recognized. \\
+\hline
+{\em Confidence\+Level} & The confidence level of the dictation recognizer. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_keywords_speech_recognition_a47e98ddf9196173283b2c7057a6c42c8}\label{class_keywords_speech_recognition_a47e98ddf9196173283b2c7057a6c42c8}} 
+\index{KeywordsSpeechRecognition@{KeywordsSpeechRecognition}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!KeywordsSpeechRecognition@{KeywordsSpeechRecognition}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily void Keywords\+Speech\+Recognition.\+On\+Disable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+The On\+Disable function is called when the script is disabled.
+
+{\bfseries{dr.\+Status == Speech\+System\+Status.\+Running}} checks if the speech recognizer is running.
+
+{\bfseries{dr.\+Stop()}} stops the speech recognizer.
+
+{\bfseries{dr.\+Dictation\+Result -\/= Dictation\+Recognizer\+\_\+\+Dictation\+Result}} removes the event handler for the Dictation\+Result event.
+
+{\bfseries{dr.\+Dictation\+Error -\/= Dictation\+Recognizer\+\_\+\+Dictation\+Error}} removes the event handler for the Dictation\+Error event.
+
+{\bfseries{dr.\+Dispose()}} disposes of the speech recognizer. \mbox{\Hypertarget{class_keywords_speech_recognition_a3a53564f25c7e7aa98c16ca6759517dc}\label{class_keywords_speech_recognition_a3a53564f25c7e7aa98c16ca6759517dc}} 
+\index{KeywordsSpeechRecognition@{KeywordsSpeechRecognition}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!KeywordsSpeechRecognition@{KeywordsSpeechRecognition}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily void Keywords\+Speech\+Recognition.\+On\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+The On\+Enable function is called when the script is enabled. It creates a new list of strings called second\+Guess, creates a new Dictation\+Recognizer called dr, and adds the Dictation\+Recognizer\+\_\+\+Dictation\+Result, Dictation\+Recognizer\+\_\+\+Dictation\+Hypothesis, and Dictation\+Recognizer\+\_\+\+Dictation\+Error functions to the dr.\+Dictation\+Result, dr.\+Dictation\+Hypothesis, and dr.\+Dictation\+Error events. \mbox{\Hypertarget{class_keywords_speech_recognition_a862c672782c017ae9d9f8475c5e17f6b}\label{class_keywords_speech_recognition_a862c672782c017ae9d9f8475c5e17f6b}} 
+\index{KeywordsSpeechRecognition@{KeywordsSpeechRecognition}!ReturnGuesses@{ReturnGuesses}}
+\index{ReturnGuesses@{ReturnGuesses}!KeywordsSpeechRecognition@{KeywordsSpeechRecognition}}
+\doxysubsubsection{\texorpdfstring{ReturnGuesses()}{ReturnGuesses()}}
+{\footnotesize\ttfamily string\mbox{[}$\,$\mbox{]} Keywords\+Speech\+Recognition.\+Return\+Guesses (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+It returns an array of strings where the first string is the most likely tag and the rest of the strings are the other possible tags
+
+\begin{DoxyReturn}{Returns}
+An array of strings. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_keywords_speech_recognition_aaf65f39f94747d43b32d282745d28327}\label{class_keywords_speech_recognition_aaf65f39f94747d43b32d282745d28327}} 
+\index{KeywordsSpeechRecognition@{KeywordsSpeechRecognition}!StopSpeechToText@{StopSpeechToText}}
+\index{StopSpeechToText@{StopSpeechToText}!KeywordsSpeechRecognition@{KeywordsSpeechRecognition}}
+\doxysubsubsection{\texorpdfstring{StopSpeechToText()}{StopSpeechToText()}}
+{\footnotesize\ttfamily void Keywords\+Speech\+Recognition.\+Stop\+Speech\+To\+Text (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+It stops the speech recognition, and then calls a coroutine that waits for a second before returning the text \mbox{\Hypertarget{class_keywords_speech_recognition_a474fc05a85117e9ff9b9572d7a8d7925}\label{class_keywords_speech_recognition_a474fc05a85117e9ff9b9572d7a8d7925}} 
+\index{KeywordsSpeechRecognition@{KeywordsSpeechRecognition}!ToggleValueChanged@{ToggleValueChanged}}
+\index{ToggleValueChanged@{ToggleValueChanged}!KeywordsSpeechRecognition@{KeywordsSpeechRecognition}}
+\doxysubsubsection{\texorpdfstring{ToggleValueChanged()}{ToggleValueChanged()}}
+{\footnotesize\ttfamily void Keywords\+Speech\+Recognition.\+Toggle\+Value\+Changed (\begin{DoxyParamCaption}\item[{Toggle}]{change }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+If the toggle is on, start the speech to text function and change the text to \char`\"{}\+Ein Tag aussprechen\char`\"{}. If the toggle is off, stop the speech to text function and change the text to \char`\"{}zum \+Sprechen klicken\char`\"{}
+
+
+\begin{DoxyParams}{Parameters}
+{\em Toggle} & The toggle that was changed. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/kt/\+VRGallery/\+Assets/\+Scripts/Keywords\+Speech\+Recognition.\+cs\end{DoxyCompactItemize}
