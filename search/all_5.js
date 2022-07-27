@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['galleryspawner_0',['GallerySpawner',['../class_gallery_spawner.html',1,'']]],
-  ['getallauthors_1',['GetAllAuthors',['../class_filters.html#a7b0d82c4ef3a9cd8db578a64c89a845f',1,'Filters']]],
-  ['getalltags_2',['GetAllTags',['../class_filters.html#a8de11d95ed8575d809c623d1c2533c36',1,'Filters']]],
-  ['getallyears_3',['GetAllYears',['../class_filters.html#af493af380bc4907dc10152d00bf6c97c',1,'Filters']]],
-  ['getartworkbyname_4',['GetArtworkByName',['../class_filters.html#a22a5fa56c1bbcb825d3d158d74b65861',1,'Filters.GetArtworkByName()'],['../class_keyword_manager.html#a3614eb5eb50044a707c59838ebae4fe3',1,'KeywordManager.GetArtworkByName()']]],
-  ['guidevoice_5',['GuideVoice',['../class_guide_voice.html',1,'']]]
+  ['filterforauthor_0',['FilterForAuthor',['../class_filters.html#ab0d6af6b1b92cdb2467deea2562155c4',1,'Filters']]],
+  ['filterforcv_1',['FilterForCv',['../class_filters.html#a7127dafd63a85d91f2bde81320881068',1,'Filters.FilterForCv()'],['../class_keyword_manager.html#a66c39e7886b928a71dd529ab0c9d48a4',1,'KeywordManager.FilterForCv()']]],
+  ['filterfortag_2',['FilterForTag',['../class_filters.html#a1bff3532dfdc9dba4a1e0c47d511a75b',1,'Filters.FilterForTag()'],['../class_keyword_manager.html#a641c3efb19e5ecd27159053780b711c2',1,'KeywordManager.FilterForTag()']]],
+  ['filterforyear_3',['FilterForYear',['../class_filters.html#af3e0d8a01c8b9d4e0c0bbd68aeda814a',1,'Filters.FilterForYear()'],['../class_keyword_manager.html#ab0f43f37b3b18aed1ce292d25ce54d1c',1,'KeywordManager.FilterForYear()']]],
+  ['filters_4',['Filters',['../class_filters.html',1,'']]],
+  ['fitbackgroundtotext_5',['FitBackgroundToText',['../class_fit_background_to_text.html',1,'']]]
 ];
