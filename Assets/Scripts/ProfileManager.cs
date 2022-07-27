@@ -7,13 +7,24 @@ using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
 
+/**
+* @class ProfileManager
+*
+* @brief Manages the profile data
+*
+* It holds a list of tags and gallery styles with each corresponding frequency and manages the according preferences
+* determined by the users input */
+
 public class ProfileManager : MonoBehaviour
 {
+    /// to call methods from another script
     public static ProfileManager pManager;
+    // for the profile elements
     public GameObject galleryStyle;
     public GameObject profilePanel;
     public GameObject tagText1;
     public GameObject tagText2;
+    
     private bool _visible;
     private Dictionary<string, int> _styleDictionary;
     private Dictionary<string, Sprite> _styleSpritesDictionary;
@@ -24,11 +35,15 @@ public class ProfileManager : MonoBehaviour
 
     private GameObject _profileButton;
 
+    // for holding every possible gallery style
     public List<Sprite> galleryStyles;
     
+    // containing every tag and frequency
     public string[] tags;
     public int[] tagsFrequency;
 
+    /// The function is called when the application starts. It sets all variables and initialize the dictionary containing
+    /// every gallery style with its frequency. Starts the coroutine for getting all tags. 
     private void Start()
     {
         pManager = this;
@@ -51,6 +66,7 @@ public class ProfileManager : MonoBehaviour
         }
     }
     
+    /// It initialize the dictionary for the different gallery styles and the corresponding sprites
     private void InitDictionaries()
     {
         _styleDictionary = new Dictionary<string, int>
@@ -70,6 +86,9 @@ public class ProfileManager : MonoBehaviour
         _styleDictionary.OrderByDescending(x => x.Value);
     }
 
+    /// Increases the frequency for a specific gallery style
+    ///
+    /// @param name The name for which the frequency should be increased
     public void IncreaseStyleFrequency(string name)
     {
         _styleDictionary[name]++;
@@ -85,6 +104,10 @@ public class ProfileManager : MonoBehaviour
         tags = AppState.AllTags;  
         tagsFrequency = new int[tags.Length];
     }
+    
+    /// Sorts the given integer array. Highest is at index 0, lowest at the end of the array
+    ///
+    /// @param arr The integer array to be sorted
     public void Sort(int[] arr)
     {
         for(int i = 1; i<arr.Length; i++) {
@@ -103,12 +126,14 @@ public class ProfileManager : MonoBehaviour
        if (tagsFrequency[0] != 0){
             _text1Comp.text = tags[0];
             if (tagsFrequency[1] != 0) 
-            _text2Comp.text = tags[1];
+                _text2Comp.text = tags[1];
         }
             
             
     }
     
+    /// Shows the profile panel by activating it. Meanwhile it detects the favorite tags and sets it automatically
+    /// in the profile.
     public void ShowProfile()
     {
         if (!_visible)
@@ -121,6 +146,7 @@ public class ProfileManager : MonoBehaviour
         }
     }
 
+    /// Hides the profile by deactivating the profile panel
     public void HideProfile()
     {
         if (_visible)
@@ -130,12 +156,11 @@ public class ProfileManager : MonoBehaviour
             _visible = false;
         }
     }
-
-    public void UseSpeechToText()
-    {
-        //TODO invoke Speech-To-Text
-    }
-
+    
+    /// It gets the last used tags in the gallery and increases the frequency for each viewed tag.
+    /// Furthermore it saves it via the Player-Prefs
+    /// 
+    /// @param tagsList A string List that holds the last tags viewed by the user.
     public void GetLastTags(List<string> tagsList){
         foreach (string tag in tagsList){
             int index = Array.FindIndex(tags, x => x.Equals(tag));
@@ -146,6 +171,7 @@ public class ProfileManager : MonoBehaviour
     }
 
   
+    /// Saves every tag with its frequency in the Player-Prefs
    public void SavePrefs()
     {
         int i = 0;
@@ -156,7 +182,8 @@ public class ProfileManager : MonoBehaviour
         PlayerPrefs.SetInt("TagsExists", 1);
         PlayerPrefs.Save();
     }
-     
+    
+    /// Loads the tags from the Player-Prefs
     public void LoadPrefs()
     {
         Debug.Log("loading");
