@@ -3,9 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/**
+ * @class GuideVoice
+ * 
+ * @brief handels voice activation for artwork description
+ *
+ * Plays an audioclip with the artwork description
+ */
 public class GuideVoice : MonoBehaviour
 {
+    /// current ActivationMode
     private ActivationMode _activationMode = ActivationMode.ButtonTriggerd;
+
+    /// prepares for new interaction based on choosen ActivationMode
     public ActivationMode activationMode
     {
         get
@@ -19,7 +29,10 @@ public class GuideVoice : MonoBehaviour
         }
     }
 
+    /// is the audioclip currently playing
     private bool _isSpeaking = false;
+
+    /// sets of image sprite based on if the audioclip is playing
     private bool isSpeaking
     {
         get
@@ -48,19 +61,27 @@ public class GuideVoice : MonoBehaviour
         }
     }
 
+    /// audioclip to be played
     public AudioClip audioClip;
 
+    /// audiosource to be used
     private AudioSource audioSource;
 
+    /// holds playArrowSprite
     private Sprite playArrowSprite;
+
+    /// holds stopSprite
     private Sprite stopSprite;
 
+    /// ButtonTriggerd can be used when you want the user to press a button to play the audioclip,
+    /// ProximityTriggerd is used when you want to play the clip if the user comes near the artwork
     public enum ActivationMode
     {
         ButtonTriggerd,
         ProximityTriggerd
     }
 
+    /// initialize sprites, sets activationMode, sets audioclip
     private void Start()
     {
         playArrowSprite = Resources.Load<Sprite>("Sprites/PlayArrow");
@@ -84,6 +105,7 @@ public class GuideVoice : MonoBehaviour
         }
     }
 
+    /// updates isSpeaking, based on audioSource.isPlaying, to be processed further
     private void Update()
     {
         if (activationMode == ActivationMode.ButtonTriggerd)
@@ -92,6 +114,9 @@ public class GuideVoice : MonoBehaviour
         }
     }
 
+    /// starts to play the audioclip if collides with MainCamera
+    /// 
+    /// @param other objects which this is colliding with
     private void OnTriggerEnter(Collider other)
     {
         if (activationMode == ActivationMode.ProximityTriggerd &&
@@ -101,6 +126,9 @@ public class GuideVoice : MonoBehaviour
         }
     }
 
+    /// stops to play the audioclip if collider exiting is MainCamera
+    /// 
+    /// @param objects which this is colliding with
     private void OnTriggerExit(Collider other)
     {
         if (activationMode == ActivationMode.ProximityTriggerd &&
@@ -110,6 +138,7 @@ public class GuideVoice : MonoBehaviour
         }
     }
 
+    /// toogels guide voice
     public void ToggleVoice()
     {
         isSpeaking = !isSpeaking;
