@@ -1,5 +1,10 @@
 \hypertarget{class_profile_manager}{}\doxysection{Profile\+Manager Class Reference}
 \label{class_profile_manager}\index{ProfileManager@{ProfileManager}}
+
+
+Manages the profile data.  
+
+
 Inheritance diagram for Profile\+Manager\+:\begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -9,30 +14,23 @@ Inheritance diagram for Profile\+Manager\+:\begin{figure}[H]
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_profile_manager_a534a136852d46c93a1d3df5191e24352}\label{class_profile_manager_a534a136852d46c93a1d3df5191e24352}} 
-void {\bfseries Increase\+Style\+Frequency} (string name)
+void \mbox{\hyperlink{class_profile_manager_a534a136852d46c93a1d3df5191e24352}{Increase\+Style\+Frequency}} (string name)
 \item 
-\mbox{\Hypertarget{class_profile_manager_ac1c9ca9f74cc8d39205dab4d123d9c18}\label{class_profile_manager_ac1c9ca9f74cc8d39205dab4d123d9c18}} 
-void {\bfseries Sort} (int\mbox{[}$\,$\mbox{]} arr)
+void \mbox{\hyperlink{class_profile_manager_ac1c9ca9f74cc8d39205dab4d123d9c18}{Sort}} (int\mbox{[}$\,$\mbox{]} arr)
 \item 
-\mbox{\Hypertarget{class_profile_manager_a7183eb1565daa1be89dd7b9e4b3b2499}\label{class_profile_manager_a7183eb1565daa1be89dd7b9e4b3b2499}} 
-void {\bfseries Show\+Profile} ()
+void \mbox{\hyperlink{class_profile_manager_a7183eb1565daa1be89dd7b9e4b3b2499}{Show\+Profile}} ()
 \item 
 \mbox{\Hypertarget{class_profile_manager_aa480dddc9af70f62f1b0ada8a3fed4eb}\label{class_profile_manager_aa480dddc9af70f62f1b0ada8a3fed4eb}} 
 void {\bfseries Hide\+Profile} ()
-\item 
-\mbox{\Hypertarget{class_profile_manager_ac6683e5135275a4c22bb6b5f5a331a8b}\label{class_profile_manager_ac6683e5135275a4c22bb6b5f5a331a8b}} 
-void {\bfseries Use\+Speech\+To\+Text} ()
-\item 
-\mbox{\Hypertarget{class_profile_manager_a9f13dfefbf3f2c6424328b41933c23a6}\label{class_profile_manager_a9f13dfefbf3f2c6424328b41933c23a6}} 
-void {\bfseries Get\+Last\+Tags} (List$<$ string $>$ tags\+List)
+\begin{DoxyCompactList}\small\item\em Hides the profile by deactivating the profile panel. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_profile_manager_a9f13dfefbf3f2c6424328b41933c23a6}{Get\+Last\+Tags}} (List$<$ string $>$ tags\+List)
 \item 
 \mbox{\Hypertarget{class_profile_manager_afcf82626c9033b8ed55bb3cbbbf9bb4d}\label{class_profile_manager_afcf82626c9033b8ed55bb3cbbbf9bb4d}} 
 void {\bfseries Save\+Prefs} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Saves every tag with its frequency in the Player-\/\+Prefs. \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_profile_manager_aefa5356ace5839acdc4179106ad1647d}\label{class_profile_manager_aefa5356ace5839acdc4179106ad1647d}} 
 void {\bfseries Load\+Prefs} ()
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Loads the tags from the Player-\/\+Prefs. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsection*{Public Attributes}
 \begin{DoxyCompactItemize}
 \item 
@@ -62,19 +60,18 @@ int\mbox{[}$\,$\mbox{]} {\bfseries tags\+Frequency}
 \item 
 \mbox{\Hypertarget{class_profile_manager_a28f4b4bffa5261d0999b84170f09a9fd}\label{class_profile_manager_a28f4b4bffa5261d0999b84170f09a9fd}} 
 static \mbox{\hyperlink{class_profile_manager}{Profile\+Manager}} {\bfseries p\+Manager}
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em to call methods from another script \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsection*{Private Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_profile_manager_a673c06709fc6809d99a36f0278b4a5ef}\label{class_profile_manager_a673c06709fc6809d99a36f0278b4a5ef}} 
-void {\bfseries Start} ()
+void \mbox{\hyperlink{class_profile_manager_a673c06709fc6809d99a36f0278b4a5ef}{Start}} ()
 \item 
 \mbox{\Hypertarget{class_profile_manager_a50d9952027af6a637583ae0c25054d7f}\label{class_profile_manager_a50d9952027af6a637583ae0c25054d7f}} 
 IEnumerator {\bfseries Wait\+And\+Get\+Tags} ()
 \item 
 \mbox{\Hypertarget{class_profile_manager_a0d4d260d237e6c65c569fa5f260cce4d}\label{class_profile_manager_a0d4d260d237e6c65c569fa5f260cce4d}} 
 void {\bfseries Init\+Dictionaries} ()
-\item 
+\begin{DoxyCompactList}\small\item\em It initialize the dictionary for the different gallery styles and the corresponding sprites. \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_profile_manager_a5b7f2c987717bfbb139eff896e7efbf3}\label{class_profile_manager_a5b7f2c987717bfbb139eff896e7efbf3}} 
 void {\bfseries Change\+Sprite} (Sprite sprite)
 \item 
@@ -109,6 +106,66 @@ Text\+Mesh\+Pro\+UGUI {\bfseries \+\_\+text2\+Comp}
 Game\+Object {\bfseries \+\_\+profile\+Button}
 \end{DoxyCompactItemize}
 
+
+\doxysubsection{Detailed Description}
+Manages the profile data. 
+
+It holds a list of tags and gallery styles with each corresponding frequency and manages the according preferences determined by the users input 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_profile_manager_a9f13dfefbf3f2c6424328b41933c23a6}\label{class_profile_manager_a9f13dfefbf3f2c6424328b41933c23a6}} 
+\index{ProfileManager@{ProfileManager}!GetLastTags@{GetLastTags}}
+\index{GetLastTags@{GetLastTags}!ProfileManager@{ProfileManager}}
+\doxysubsubsection{\texorpdfstring{GetLastTags()}{GetLastTags()}}
+{\footnotesize\ttfamily void Profile\+Manager.\+Get\+Last\+Tags (\begin{DoxyParamCaption}\item[{List$<$ string $>$}]{tags\+List }\end{DoxyParamCaption})}
+
+It gets the last used tags in the gallery and increases the frequency for each viewed tag. Furthermore it saves it via the Player-\/\+Prefs
+
+
+\begin{DoxyParams}{Parameters}
+{\em tags\+List} & A string List that holds the last tags viewed by the user. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_profile_manager_a534a136852d46c93a1d3df5191e24352}\label{class_profile_manager_a534a136852d46c93a1d3df5191e24352}} 
+\index{ProfileManager@{ProfileManager}!IncreaseStyleFrequency@{IncreaseStyleFrequency}}
+\index{IncreaseStyleFrequency@{IncreaseStyleFrequency}!ProfileManager@{ProfileManager}}
+\doxysubsubsection{\texorpdfstring{IncreaseStyleFrequency()}{IncreaseStyleFrequency()}}
+{\footnotesize\ttfamily void Profile\+Manager.\+Increase\+Style\+Frequency (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})}
+
+Increases the frequency for a specific gallery style
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name for which the frequency should be increased \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_profile_manager_a7183eb1565daa1be89dd7b9e4b3b2499}\label{class_profile_manager_a7183eb1565daa1be89dd7b9e4b3b2499}} 
+\index{ProfileManager@{ProfileManager}!ShowProfile@{ShowProfile}}
+\index{ShowProfile@{ShowProfile}!ProfileManager@{ProfileManager}}
+\doxysubsubsection{\texorpdfstring{ShowProfile()}{ShowProfile()}}
+{\footnotesize\ttfamily void Profile\+Manager.\+Show\+Profile (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Shows the profile panel by activating it. Meanwhile it detects the favorite tags and sets it automatically in the profile. \mbox{\Hypertarget{class_profile_manager_ac1c9ca9f74cc8d39205dab4d123d9c18}\label{class_profile_manager_ac1c9ca9f74cc8d39205dab4d123d9c18}} 
+\index{ProfileManager@{ProfileManager}!Sort@{Sort}}
+\index{Sort@{Sort}!ProfileManager@{ProfileManager}}
+\doxysubsubsection{\texorpdfstring{Sort()}{Sort()}}
+{\footnotesize\ttfamily void Profile\+Manager.\+Sort (\begin{DoxyParamCaption}\item[{int\mbox{[}$\,$\mbox{]}}]{arr }\end{DoxyParamCaption})}
+
+Sorts the given integer array. Highest is at index 0, lowest at the end of the array
+
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & The integer array to be sorted \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_profile_manager_a673c06709fc6809d99a36f0278b4a5ef}\label{class_profile_manager_a673c06709fc6809d99a36f0278b4a5ef}} 
+\index{ProfileManager@{ProfileManager}!Start@{Start}}
+\index{Start@{Start}!ProfileManager@{ProfileManager}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Profile\+Manager.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+The function is called when the application starts. It sets all variables and initialize the dictionary containing every gallery style with its frequency. Starts the coroutine for getting all tags. ~\newline
+ 
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 

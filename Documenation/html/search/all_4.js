@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['filterforauthor_0',['FilterForAuthor',['../class_filters.html#ab0d6af6b1b92cdb2467deea2562155c4',1,'Filters']]],
-  ['filterforcv_1',['FilterForCv',['../class_filters.html#a7127dafd63a85d91f2bde81320881068',1,'Filters.FilterForCv()'],['../class_keyword_manager.html#a66c39e7886b928a71dd529ab0c9d48a4',1,'KeywordManager.FilterForCv()']]],
-  ['filterfortag_2',['FilterForTag',['../class_filters.html#a1bff3532dfdc9dba4a1e0c47d511a75b',1,'Filters.FilterForTag()'],['../class_keyword_manager.html#a641c3efb19e5ecd27159053780b711c2',1,'KeywordManager.FilterForTag()']]],
-  ['filterforyear_3',['FilterForYear',['../class_filters.html#af3e0d8a01c8b9d4e0c0bbd68aeda814a',1,'Filters.FilterForYear()'],['../class_keyword_manager.html#ab0f43f37b3b18aed1ce292d25ce54d1c',1,'KeywordManager.FilterForYear()']]],
-  ['filters_4',['Filters',['../class_filters.html',1,'']]],
-  ['fitbackgroundtotext_5',['FitBackgroundToText',['../class_fit_background_to_text.html',1,'']]]
+  ['destroygallery_0',['DestroyGallery',['../class_style_button_behavior.html#ad80f8a142120104d10e2b6c1fd21f20b',1,'StyleButtonBehavior']]],
+  ['dictationrecognizer_5fdictationerror_1',['DictationRecognizer_DictationError',['../class_keywords_speech_recognition.html#a76697a35144d79c0f943479e7a27effe',1,'KeywordsSpeechRecognition']]],
+  ['dictationrecognizer_5fdictationhypothesis_2',['DictationRecognizer_DictationHypothesis',['../class_keywords_speech_recognition.html#a2d9e4d557c5309f57f3f85a15d928c2d',1,'KeywordsSpeechRecognition']]],
+  ['dictationrecognizer_5fdictationresult_3',['DictationRecognizer_DictationResult',['../class_keywords_speech_recognition.html#abadc0b85f7ac82005205d9d533398074',1,'KeywordsSpeechRecognition']]],
+  ['displayfilters_4',['DisplayFilters',['../class_keyword_manager.html#ab27d3f635193a079deff2fbbe52f61a5',1,'KeywordManager']]]
 ];

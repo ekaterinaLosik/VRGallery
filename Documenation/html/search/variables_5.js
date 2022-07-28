@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['gallerystyle_0',['galleryStyle',['../class_profile_manager.html#a014dd6f609e6834175e5deb95c349c7f',1,'ProfileManager']]],
-  ['gallerystyles_1',['galleryStyles',['../class_profile_manager.html#a711e32bbb4622857021e79a54ac966d6',1,'ProfileManager']]]
+  ['totaltutorialsites_0',['totalTutorialSites',['../class_menu_manager_script.html#aeba35f26a93f88b1b03162ea50f901cf',1,'MenuManagerScript']]]
 ];

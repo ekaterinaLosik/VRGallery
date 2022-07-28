@@ -1,5 +1,10 @@
 \hypertarget{class_menu_manager_script}{}\doxysection{Menu\+Manager\+Script Class Reference}
 \label{class_menu_manager_script}\index{MenuManagerScript@{MenuManagerScript}}
+
+
+Controls the tutorial-\/menu.  
+
+
 Inheritance diagram for Menu\+Manager\+Script\+:\begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -11,30 +16,29 @@ Inheritance diagram for Menu\+Manager\+Script\+:\begin{figure}[H]
 \item 
 \mbox{\Hypertarget{class_menu_manager_script_aaf6d43a3219ebe9d70a79d87eb4a636b}\label{class_menu_manager_script_aaf6d43a3219ebe9d70a79d87eb4a636b}} 
 void {\bfseries Next\+Site} ()
-\item 
+\begin{DoxyCompactList}\small\item\em It navigates to the next tutorial site. \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_menu_manager_script_a24352e9322752eda5d2cd83283aeb75e}\label{class_menu_manager_script_a24352e9322752eda5d2cd83283aeb75e}} 
 void {\bfseries Previous\+Site} ()
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em It navigates to the previous tutorial site. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsection*{Public Attributes}
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\Hypertarget{class_menu_manager_script_aeba35f26a93f88b1b03162ea50f901cf}\label{class_menu_manager_script_aeba35f26a93f88b1b03162ea50f901cf}} 
 int {\bfseries total\+Tutorial\+Sites}
-\item 
+\begin{DoxyCompactList}\small\item\em indicates how many tutorial sites there are and which one is currently visible \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_menu_manager_script_a77d16116eac9228c3cc22645c24b8e77}\label{class_menu_manager_script_a77d16116eac9228c3cc22645c24b8e77}} 
 int {\bfseries current\+Site}
 \item 
 \mbox{\Hypertarget{class_menu_manager_script_ab33d1ebb95b948283adb96314432c812}\label{class_menu_manager_script_ab33d1ebb95b948283adb96314432c812}} 
 Game\+Object {\bfseries first\+Panel}
-\item 
+\begin{DoxyCompactList}\small\item\em for the different tutorial sites \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_menu_manager_script_a0958e4d9ff8536549c0209d870010b42}\label{class_menu_manager_script_a0958e4d9ff8536549c0209d870010b42}} 
 Game\+Object {\bfseries second\+Panel}
 \end{DoxyCompactItemize}
 \doxysubsection*{Private Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_menu_manager_script_a381428fb315d159da587085697b95dbc}\label{class_menu_manager_script_a381428fb315d159da587085697b95dbc}} 
-void {\bfseries Start} ()
+void \mbox{\hyperlink{class_menu_manager_script_a381428fb315d159da587085697b95dbc}{Start}} ()
 \end{DoxyCompactItemize}
 \doxysubsection*{Private Attributes}
 \begin{DoxyCompactItemize}
@@ -43,6 +47,20 @@ void {\bfseries Start} ()
 Game\+Object\mbox{[}$\,$\mbox{]} {\bfseries \+\_\+panels}
 \end{DoxyCompactItemize}
 
+
+\doxysubsection{Detailed Description}
+Controls the tutorial-\/menu. 
+
+It provides the tutorial navigation, including next site \& previous site 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_menu_manager_script_a381428fb315d159da587085697b95dbc}\label{class_menu_manager_script_a381428fb315d159da587085697b95dbc}} 
+\index{MenuManagerScript@{MenuManagerScript}!Start@{Start}}
+\index{Start@{Start}!MenuManagerScript@{MenuManagerScript}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Menu\+Manager\+Script.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+The function is called when the application starts. It sets the currently visible site and how many tutorial sites there are. Furthermore it fills an array with the panels for each tutorial site. 
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 

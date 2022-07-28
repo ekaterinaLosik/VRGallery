@@ -73,6 +73,9 @@ $(function() {
   <div class="headertitle"><div class="title">GuideVoice Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>handels voice activation for artwork description  
+ <a href="class_guide_voice.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for GuideVoice:</div>
 <div class="dyncontent">
@@ -82,7 +85,7 @@ Inheritance diagram for GuideVoice:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a3a5574ba7a5cabeecdb6b78686d9ab51"><td class="memItemLeft" align="right" valign="top"><a id="a3a5574ba7a5cabeecdb6b78686d9ab51" name="a3a5574ba7a5cabeecdb6b78686d9ab51"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>ActivationMode</b> { <b>ButtonTriggerd</b>
+<tr class="memitem:a3a5574ba7a5cabeecdb6b78686d9ab51"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_guide_voice.html#a3a5574ba7a5cabeecdb6b78686d9ab51">ActivationMode</a> { <b>ButtonTriggerd</b>
 , <b>ProximityTriggerd</b>
  }</td></tr>
 <tr class="separator:a3a5574ba7a5cabeecdb6b78686d9ab51"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -91,56 +94,151 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a928d24dbe955c91786b1817da2e1844a"><td class="memItemLeft" align="right" valign="top"><a id="a928d24dbe955c91786b1817da2e1844a" name="a928d24dbe955c91786b1817da2e1844a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ToggleVoice</b> ()</td></tr>
+<tr class="memdesc:a928d24dbe955c91786b1817da2e1844a"><td class="mdescLeft">&#160;</td><td class="mdescRight">toogels guide voice <br /></td></tr>
 <tr class="separator:a928d24dbe955c91786b1817da2e1844a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:acf9c4c5ca14329122a7114faff3ac8ec"><td class="memItemLeft" align="right" valign="top"><a id="acf9c4c5ca14329122a7114faff3ac8ec" name="acf9c4c5ca14329122a7114faff3ac8ec"></a>
 AudioClip&#160;</td><td class="memItemRight" valign="bottom"><b>audioClip</b></td></tr>
+<tr class="memdesc:acf9c4c5ca14329122a7114faff3ac8ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">audioclip to be played <br /></td></tr>
 <tr class="separator:acf9c4c5ca14329122a7114faff3ac8ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:aa40e650b080954479ce56732ba980ee4"><td class="memItemLeft" align="right" valign="top"><a id="aa40e650b080954479ce56732ba980ee4" name="aa40e650b080954479ce56732ba980ee4"></a>
-ActivationMode&#160;</td><td class="memItemRight" valign="bottom"><b>activationMode</b><code> [get, set]</code></td></tr>
+<a class="el" href="class_guide_voice.html#a3a5574ba7a5cabeecdb6b78686d9ab51">ActivationMode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>activationMode</b><code> [get, set]</code></td></tr>
+<tr class="memdesc:aa40e650b080954479ce56732ba980ee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepares for new interaction based on choosen ActivationMode <br /></td></tr>
 <tr class="separator:aa40e650b080954479ce56732ba980ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72db9bae17673c8f2c49d2634f87d9c3"><td class="memItemLeft" align="right" valign="top"><a id="a72db9bae17673c8f2c49d2634f87d9c3" name="a72db9bae17673c8f2c49d2634f87d9c3"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isSpeaking</b><code> [get, set]</code></td></tr>
+<tr class="memdesc:a72db9bae17673c8f2c49d2634f87d9c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets of image sprite based on if the audioclip is playing <br /></td></tr>
 <tr class="separator:a72db9bae17673c8f2c49d2634f87d9c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a615bc39b01af048f8d999d6b35d3d481"><td class="memItemLeft" align="right" valign="top"><a id="a615bc39b01af048f8d999d6b35d3d481" name="a615bc39b01af048f8d999d6b35d3d481"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
+<tr class="memdesc:a615bc39b01af048f8d999d6b35d3d481"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize sprites, sets activationMode, sets audioclip <br /></td></tr>
 <tr class="separator:a615bc39b01af048f8d999d6b35d3d481"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee71a205f56257b6ba267c4ed754a262"><td class="memItemLeft" align="right" valign="top"><a id="aee71a205f56257b6ba267c4ed754a262" name="aee71a205f56257b6ba267c4ed754a262"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
+<tr class="memdesc:aee71a205f56257b6ba267c4ed754a262"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates isSpeaking, based on audioSource.isPlaying, to be processed further <br /></td></tr>
 <tr class="separator:aee71a205f56257b6ba267c4ed754a262"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a622b2a772f800bec7fa3821b8fc71f51"><td class="memItemLeft" align="right" valign="top"><a id="a622b2a772f800bec7fa3821b8fc71f51" name="a622b2a772f800bec7fa3821b8fc71f51"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>OnTriggerEnter</b> (Collider other)</td></tr>
+<tr class="memitem:a622b2a772f800bec7fa3821b8fc71f51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_guide_voice.html#a622b2a772f800bec7fa3821b8fc71f51">OnTriggerEnter</a> (Collider other)</td></tr>
 <tr class="separator:a622b2a772f800bec7fa3821b8fc71f51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8524e9cacb55f7c6e01e49304be473dc"><td class="memItemLeft" align="right" valign="top"><a id="a8524e9cacb55f7c6e01e49304be473dc" name="a8524e9cacb55f7c6e01e49304be473dc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>OnTriggerExit</b> (Collider other)</td></tr>
+<tr class="memitem:a8524e9cacb55f7c6e01e49304be473dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_guide_voice.html#a8524e9cacb55f7c6e01e49304be473dc">OnTriggerExit</a> (Collider other)</td></tr>
 <tr class="separator:a8524e9cacb55f7c6e01e49304be473dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ae85ab040fcb0222a9e6d2078cdade8cb"><td class="memItemLeft" align="right" valign="top"><a id="ae85ab040fcb0222a9e6d2078cdade8cb" name="ae85ab040fcb0222a9e6d2078cdade8cb"></a>
-ActivationMode&#160;</td><td class="memItemRight" valign="bottom"><b>_activationMode</b> = ActivationMode.ButtonTriggerd</td></tr>
+<a class="el" href="class_guide_voice.html#a3a5574ba7a5cabeecdb6b78686d9ab51">ActivationMode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_activationMode</b> = ActivationMode.ButtonTriggerd</td></tr>
+<tr class="memdesc:ae85ab040fcb0222a9e6d2078cdade8cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">current ActivationMode <br /></td></tr>
 <tr class="separator:ae85ab040fcb0222a9e6d2078cdade8cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b01ff8bd0a2c21dac40bd75eefaa47a"><td class="memItemLeft" align="right" valign="top"><a id="a9b01ff8bd0a2c21dac40bd75eefaa47a" name="a9b01ff8bd0a2c21dac40bd75eefaa47a"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isSpeaking</b> = false</td></tr>
+<tr class="memdesc:a9b01ff8bd0a2c21dac40bd75eefaa47a"><td class="mdescLeft">&#160;</td><td class="mdescRight">is the audioclip currently playing <br /></td></tr>
 <tr class="separator:a9b01ff8bd0a2c21dac40bd75eefaa47a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace6bf6d6d3734fbae8fccbeea6f6cb1f"><td class="memItemLeft" align="right" valign="top"><a id="ace6bf6d6d3734fbae8fccbeea6f6cb1f" name="ace6bf6d6d3734fbae8fccbeea6f6cb1f"></a>
 AudioSource&#160;</td><td class="memItemRight" valign="bottom"><b>audioSource</b></td></tr>
+<tr class="memdesc:ace6bf6d6d3734fbae8fccbeea6f6cb1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">audiosource to be used <br /></td></tr>
 <tr class="separator:ace6bf6d6d3734fbae8fccbeea6f6cb1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95ede4c1da50053f32b9337ef71c4b4f"><td class="memItemLeft" align="right" valign="top"><a id="a95ede4c1da50053f32b9337ef71c4b4f" name="a95ede4c1da50053f32b9337ef71c4b4f"></a>
 Sprite&#160;</td><td class="memItemRight" valign="bottom"><b>playArrowSprite</b></td></tr>
+<tr class="memdesc:a95ede4c1da50053f32b9337ef71c4b4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">holds playArrowSprite <br /></td></tr>
 <tr class="separator:a95ede4c1da50053f32b9337ef71c4b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc8d4271a0e775789cd3fb05104f2c69"><td class="memItemLeft" align="right" valign="top"><a id="adc8d4271a0e775789cd3fb05104f2c69" name="adc8d4271a0e775789cd3fb05104f2c69"></a>
 Sprite&#160;</td><td class="memItemRight" valign="bottom"><b>stopSprite</b></td></tr>
+<tr class="memdesc:adc8d4271a0e775789cd3fb05104f2c69"><td class="mdescLeft">&#160;</td><td class="mdescRight">holds stopSprite <br /></td></tr>
 <tr class="separator:adc8d4271a0e775789cd3fb05104f2c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >handels voice activation for artwork description </p>
+<p >Plays an audioclip with the artwork description </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a3a5574ba7a5cabeecdb6b78686d9ab51" name="a3a5574ba7a5cabeecdb6b78686d9ab51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a5574ba7a5cabeecdb6b78686d9ab51">&#9670;&nbsp;</a></span>ActivationMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_guide_voice.html#a3a5574ba7a5cabeecdb6b78686d9ab51">GuideVoice.ActivationMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >ButtonTriggerd can be used when you want the user to press a button to play the audioclip, ProximityTriggerd is used when you want to play the clip if the user comes near the artwork </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a622b2a772f800bec7fa3821b8fc71f51" name="a622b2a772f800bec7fa3821b8fc71f51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a622b2a772f800bec7fa3821b8fc71f51">&#9670;&nbsp;</a></span>OnTriggerEnter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GuideVoice.OnTriggerEnter </td>
+          <td>(</td>
+          <td class="paramtype">Collider&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >starts to play the audioclip if collides with MainCamera</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>objects which this is colliding with </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8524e9cacb55f7c6e01e49304be473dc" name="a8524e9cacb55f7c6e01e49304be473dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8524e9cacb55f7c6e01e49304be473dc">&#9670;&nbsp;</a></span>OnTriggerExit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GuideVoice.OnTriggerExit </td>
+          <td>(</td>
+          <td class="paramtype">Collider&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >stops to play the audioclip if collider exiting is MainCamera</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">objects</td><td>which this is colliding with </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>C:/Users/kt/VRGallery/Assets/Scripts/GuideVoice.cs</li>
 </ul>

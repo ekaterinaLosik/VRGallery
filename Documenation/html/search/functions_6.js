@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['istagslistempty_0',['IsTagsListEmpty',['../class_keyword_manager.html#aeac7af4cca7e9882987229a3fa06adff',1,'KeywordManager']]]
+  ['hideprofile_0',['HideProfile',['../class_profile_manager.html#aa480dddc9af70f62f1b0ada8a3fed4eb',1,'ProfileManager']]]
 ];
