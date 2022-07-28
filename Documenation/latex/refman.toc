@@ -1,0 +1,103 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Hierarchical Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Class Documentation}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}App\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}State Class Reference}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Detailed Description}{5}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Artwork Class Reference}{5}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Detailed Description}{6}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Close\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Behavior Class Reference}{6}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Detailed Description}{6}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Member Function Documentation}{7}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Start()}{7}{subsubsection.3.3.2.1}%
+\contentsline {section}{\numberline {3.4}Filters Class Reference}{7}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Detailed Description}{7}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Member Function Documentation}{7}{subsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.2.1}FilterForAuthor()}{7}{subsubsection.3.4.2.1}%
+\contentsline {subsubsection}{\numberline {3.4.2.2}FilterForCv()}{8}{subsubsection.3.4.2.2}%
+\contentsline {subsubsection}{\numberline {3.4.2.3}FilterForTag()}{8}{subsubsection.3.4.2.3}%
+\contentsline {subsubsection}{\numberline {3.4.2.4}FilterForYear()}{9}{subsubsection.3.4.2.4}%
+\contentsline {subsubsection}{\numberline {3.4.2.5}GetAllAuthors()}{9}{subsubsection.3.4.2.5}%
+\contentsline {subsubsection}{\numberline {3.4.2.6}GetAllTags()}{9}{subsubsection.3.4.2.6}%
+\contentsline {subsubsection}{\numberline {3.4.2.7}GetAllYears()}{10}{subsubsection.3.4.2.7}%
+\contentsline {subsubsection}{\numberline {3.4.2.8}GetArtworkByName()}{10}{subsubsection.3.4.2.8}%
+\contentsline {section}{\numberline {3.5}Fit\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Background\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}To\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Text Class Reference}{10}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Detailed Description}{11}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Member Function Documentation}{11}{subsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.2.1}OnEnable()}{11}{subsubsection.3.5.2.1}%
+\contentsline {section}{\numberline {3.6}Gallery\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Spawner Class Reference}{12}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Detailed Description}{13}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Member Function Documentation}{13}{subsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.2.1}SetStyle()}{13}{subsubsection.3.6.2.1}%
+\contentsline {subsubsection}{\numberline {3.6.2.2}SpawnGallery()}{13}{subsubsection.3.6.2.2}%
+\contentsline {section}{\numberline {3.7}Guide\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Voice Class Reference}{13}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Detailed Description}{15}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Member Enumeration Documentation}{15}{subsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.2.1}ActivationMode}{15}{subsubsection.3.7.2.1}%
+\contentsline {subsection}{\numberline {3.7.3}Member Function Documentation}{15}{subsection.3.7.3}%
+\contentsline {subsubsection}{\numberline {3.7.3.1}OnTriggerEnter()}{15}{subsubsection.3.7.3.1}%
+\contentsline {subsubsection}{\numberline {3.7.3.2}OnTriggerExit()}{15}{subsubsection.3.7.3.2}%
+\contentsline {section}{\numberline {3.8}Hand Class Reference}{16}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Detailed Description}{16}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Member Function Documentation}{16}{subsection.3.8.2}%
+\contentsline {subsubsection}{\numberline {3.8.2.1}AnimateHand()}{17}{subsubsection.3.8.2.1}%
+\contentsline {subsubsection}{\numberline {3.8.2.2}Start()}{17}{subsubsection.3.8.2.2}%
+\contentsline {subsubsection}{\numberline {3.8.2.3}Update()}{17}{subsubsection.3.8.2.3}%
+\contentsline {section}{\numberline {3.9}Hand\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller Class Reference}{17}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Detailed Description}{18}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}Member Function Documentation}{18}{subsection.3.9.2}%
+\contentsline {subsubsection}{\numberline {3.9.2.1}Start()}{18}{subsubsection.3.9.2.1}%
+\contentsline {subsubsection}{\numberline {3.9.2.2}Update()}{18}{subsubsection.3.9.2.2}%
+\contentsline {section}{\numberline {3.10}Keyword\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager Class Reference}{18}{section.3.10}%
+\contentsline {subsection}{\numberline {3.10.1}Detailed Description}{19}{subsection.3.10.1}%
+\contentsline {subsection}{\numberline {3.10.2}Member Function Documentation}{20}{subsection.3.10.2}%
+\contentsline {subsubsection}{\numberline {3.10.2.1}AddToFilterList()}{20}{subsubsection.3.10.2.1}%
+\contentsline {subsubsection}{\numberline {3.10.2.2}CreateAuthorButtons()}{21}{subsubsection.3.10.2.2}%
+\contentsline {subsubsection}{\numberline {3.10.2.3}CreateFilterButtons()}{21}{subsubsection.3.10.2.3}%
+\contentsline {subsubsection}{\numberline {3.10.2.4}DisplayFilters()}{21}{subsubsection.3.10.2.4}%
+\contentsline {subsubsection}{\numberline {3.10.2.5}FilterForCv()}{21}{subsubsection.3.10.2.5}%
+\contentsline {subsubsection}{\numberline {3.10.2.6}FilterForTag()}{21}{subsubsection.3.10.2.6}%
+\contentsline {subsubsection}{\numberline {3.10.2.7}FilterForYear()}{23}{subsubsection.3.10.2.7}%
+\contentsline {subsubsection}{\numberline {3.10.2.8}GetArtworkByName()}{23}{subsubsection.3.10.2.8}%
+\contentsline {subsubsection}{\numberline {3.10.2.9}IsTagsListEmpty()}{23}{subsubsection.3.10.2.9}%
+\contentsline {subsubsection}{\numberline {3.10.2.10}ResetPool()}{23}{subsubsection.3.10.2.10}%
+\contentsline {subsubsection}{\numberline {3.10.2.11}Start()}{24}{subsubsection.3.10.2.11}%
+\contentsline {section}{\numberline {3.11}Keywords\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Speech\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Recognition Class Reference}{24}{section.3.11}%
+\contentsline {subsection}{\numberline {3.11.1}Detailed Description}{25}{subsection.3.11.1}%
+\contentsline {subsection}{\numberline {3.11.2}Member Function Documentation}{25}{subsection.3.11.2}%
+\contentsline {subsubsection}{\numberline {3.11.2.1}DictationRecognizer\_DictationError()}{25}{subsubsection.3.11.2.1}%
+\contentsline {subsubsection}{\numberline {3.11.2.2}DictationRecognizer\_DictationHypothesis()}{25}{subsubsection.3.11.2.2}%
+\contentsline {subsubsection}{\numberline {3.11.2.3}DictationRecognizer\_DictationResult()}{26}{subsubsection.3.11.2.3}%
+\contentsline {subsubsection}{\numberline {3.11.2.4}OnDisable()}{26}{subsubsection.3.11.2.4}%
+\contentsline {subsubsection}{\numberline {3.11.2.5}OnEnable()}{26}{subsubsection.3.11.2.5}%
+\contentsline {subsubsection}{\numberline {3.11.2.6}ReturnGuesses()}{26}{subsubsection.3.11.2.6}%
+\contentsline {subsubsection}{\numberline {3.11.2.7}StopSpeechToText()}{27}{subsubsection.3.11.2.7}%
+\contentsline {subsubsection}{\numberline {3.11.2.8}ToggleValueChanged()}{27}{subsubsection.3.11.2.8}%
+\contentsline {section}{\numberline {3.12}Menu\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Script Class Reference}{27}{section.3.12}%
+\contentsline {subsection}{\numberline {3.12.1}Detailed Description}{28}{subsection.3.12.1}%
+\contentsline {subsection}{\numberline {3.12.2}Member Function Documentation}{28}{subsection.3.12.2}%
+\contentsline {subsubsection}{\numberline {3.12.2.1}Start()}{28}{subsubsection.3.12.2.1}%
+\contentsline {section}{\numberline {3.13}Profile\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager Class Reference}{28}{section.3.13}%
+\contentsline {subsection}{\numberline {3.13.1}Detailed Description}{30}{subsection.3.13.1}%
+\contentsline {subsection}{\numberline {3.13.2}Member Function Documentation}{30}{subsection.3.13.2}%
+\contentsline {subsubsection}{\numberline {3.13.2.1}GetLastTags()}{30}{subsubsection.3.13.2.1}%
+\contentsline {subsubsection}{\numberline {3.13.2.2}IncreaseStyleFrequency()}{30}{subsubsection.3.13.2.2}%
+\contentsline {subsubsection}{\numberline {3.13.2.3}ShowProfile()}{30}{subsubsection.3.13.2.3}%
+\contentsline {subsubsection}{\numberline {3.13.2.4}Sort()}{31}{subsubsection.3.13.2.4}%
+\contentsline {subsubsection}{\numberline {3.13.2.5}Start()}{31}{subsubsection.3.13.2.5}%
+\contentsline {section}{\numberline {3.14}Style\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Behavior Class Reference}{31}{section.3.14}%
+\contentsline {subsection}{\numberline {3.14.1}Detailed Description}{32}{subsection.3.14.1}%
+\contentsline {subsection}{\numberline {3.14.2}Member Function Documentation}{32}{subsection.3.14.2}%
+\contentsline {subsubsection}{\numberline {3.14.2.1}Start()}{32}{subsubsection.3.14.2.1}%
+\contentsline {section}{\numberline {3.15}Teleporter Class Reference}{32}{section.3.15}%
+\contentsline {subsection}{\numberline {3.15.1}Detailed Description}{33}{subsection.3.15.1}%
+\contentsline {subsection}{\numberline {3.15.2}Member Function Documentation}{33}{subsection.3.15.2}%
+\contentsline {subsubsection}{\numberline {3.15.2.1}ButtonPressed()}{33}{subsubsection.3.15.2.1}%
+\contentsline {subsubsection}{\numberline {3.15.2.2}ButtonReleased()}{33}{subsubsection.3.15.2.2}%
+\contentsline {subsubsection}{\numberline {3.15.2.3}OnDisable()}{34}{subsubsection.3.15.2.3}%
+\contentsline {subsubsection}{\numberline {3.15.2.4}OnEnable()}{34}{subsubsection.3.15.2.4}%
+\contentsline {section}{\numberline {3.16}VRReset\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Player\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Position Class Reference}{34}{section.3.16}%
+\contentsline {subsection}{\numberline {3.16.1}Detailed Description}{34}{subsection.3.16.1}%
+\contentsline {chapter}{Index}{35}{section*.65}%
