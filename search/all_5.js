@@ -5,5 +5,6 @@ var searchData=
   ['filterfortag_2',['FilterForTag',['../class_filters.html#a1bff3532dfdc9dba4a1e0c47d511a75b',1,'Filters.FilterForTag()'],['../class_keyword_manager.html#a641c3efb19e5ecd27159053780b711c2',1,'KeywordManager.FilterForTag()']]],
   ['filterforyear_3',['FilterForYear',['../class_filters.html#af3e0d8a01c8b9d4e0c0bbd68aeda814a',1,'Filters.FilterForYear()'],['../class_keyword_manager.html#ab0f43f37b3b18aed1ce292d25ce54d1c',1,'KeywordManager.FilterForYear()']]],
   ['filters_4',['Filters',['../class_filters.html',1,'']]],
-  ['fitbackgroundtotext_5',['FitBackgroundToText',['../class_fit_background_to_text.html',1,'']]]
+  ['firstpanel_5',['firstPanel',['../class_menu_manager_script.html#ab33d1ebb95b948283adb96314432c812',1,'MenuManagerScript']]],
+  ['fitbackgroundtotext_6',['FitBackgroundToText',['../class_fit_background_to_text.html',1,'']]]
 ];

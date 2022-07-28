@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['taskonclick_0',['TaskOnClick',['../class_close_button_behavior.html#abeef2d022a3c2cc7dcb104d01f1a5e70',1,'CloseButtonBehavior.TaskOnClick()'],['../class_style_button_behavior.html#af2fd65d97a07dd802f72fb4252ed1b0c',1,'StyleButtonBehavior.TaskOnClick()']]],
-  ['teleporter_1',['Teleporter',['../class_teleporter.html',1,'']]],
-  ['togglevaluechanged_2',['ToggleValueChanged',['../class_keywords_speech_recognition.html#a474fc05a85117e9ff9b9572d7a8d7925',1,'KeywordsSpeechRecognition']]],
-  ['togglevoice_3',['ToggleVoice',['../class_guide_voice.html#a928d24dbe955c91786b1817da2e1844a',1,'GuideVoice']]]
+  ['resetpool_0',['ResetPool',['../class_keyword_manager.html#a1151ed136ac6c5b982f0132f4b9dec9b',1,'KeywordManager']]],
+  ['resetposition_1',['ResetPosition',['../class_v_r_reset_player_position.html#a4ffef270f26dd3993e04bd03dadf97a1',1,'VRResetPlayerPosition']]],
+  ['returnguesses_2',['ReturnGuesses',['../class_keywords_speech_recognition.html#a862c672782c017ae9d9f8475c5e17f6b',1,'KeywordsSpeechRecognition']]]
 ];

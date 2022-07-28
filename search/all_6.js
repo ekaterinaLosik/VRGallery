@@ -5,5 +5,6 @@ var searchData=
   ['getalltags_2',['GetAllTags',['../class_filters.html#a8de11d95ed8575d809c623d1c2533c36',1,'Filters']]],
   ['getallyears_3',['GetAllYears',['../class_filters.html#af493af380bc4907dc10152d00bf6c97c',1,'Filters']]],
   ['getartworkbyname_4',['GetArtworkByName',['../class_filters.html#a22a5fa56c1bbcb825d3d158d74b65861',1,'Filters.GetArtworkByName()'],['../class_keyword_manager.html#a3614eb5eb50044a707c59838ebae4fe3',1,'KeywordManager.GetArtworkByName()']]],
-  ['guidevoice_5',['GuideVoice',['../class_guide_voice.html',1,'']]]
+  ['getlasttags_5',['GetLastTags',['../class_profile_manager.html#a9f13dfefbf3f2c6424328b41933c23a6',1,'ProfileManager']]],
+  ['guidevoice_6',['GuideVoice',['../class_guide_voice.html',1,'']]]
 ];

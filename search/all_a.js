@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['menumanagerscript_0',['MenuManagerScript',['../class_menu_manager_script.html',1,'']]]
+  ['loadprefs_0',['LoadPrefs',['../class_profile_manager.html#aefa5356ace5839acdc4179106ad1647d',1,'ProfileManager']]]
 ];
